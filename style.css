@@ -1,55 +1,18 @@
-/* =====================================
-Template Name: inflanar
-Author Name: QoumodoTheme
-Description: Multipurose App Showcase Theme.
-Version:	1.0
-========================================*/   
 
-/*======================================
-[ CSS Sections ]
-* Header CSS
-* Hero CSS
-* Features CSS
-* Influencers CSS
-	+ Influencer Dashboard CSS
-	+ Influencer Profile CSS
-	+ Influencer Joining CSS
-	+ Influencers Category CSS
-* Services CSS
-	+ Service Single
-	+ Service Booking CSS
-* Working Process CSS
-* Video CTA CSS
-* FunFacts CSS
-* Faq's CSS
-* Blog CSS
-* Pages CSS
-	+ About US CSS
-	+ Login CSS
-	+ SignUp CSS
-	+ 404 CSS
-	+ Contact CSS
-* Global CSS
-* Footer CSS
-========================================*/ 
-
-/*======================================
-    Header Area
-========================================*/
-.inflanar-header{
+.afrifinder-header{
 	z-index: 10000;
 }
-.inflanar-topbar-flex {
+.afrifinder-topbar-flex {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
 }
-.inflanar-header__top {
+.afrifinder-header__top {
 	padding: 15px 0;
 }
 
-.inflanar-header__list {
+.afrifinder-header__list {
 	display: flex;
 	align-items: center;
 	list-style: none;
@@ -57,27 +20,27 @@ Version:	1.0
 	padding: 0;
 	gap: 35px;
 }
-.inflanar-header__list a {
+.afrifinder-header__list a {
 	color: #fff;
 	font-size: 14px;
 	display: flex;
 	align-items: center;
 	gap: 10px;
 }
-.inflanar-header__list a:hover {
+.afrifinder-header__list a:hover {
 	opacity: 0.8;
 }
-.inflanar-header {
+.afrifinder-header {
 	position: absolute;
 	width: 100%;
 	left: 0;
 	top: 0;
 	z-index: 5000;
 }
-.inflanar-header__middle {
+.afrifinder-header__middle {
 	width: 100%;
 }
-.inflanar-header__inside {
+.afrifinder-header__inside {
 	background: transparent;
 	padding: 12px 0;
 	border-radius: 4px;
@@ -85,39 +48,39 @@ Version:	1.0
 	justify-content: space-between;
 	align-items: center;
 }
-.inflanar-header__group {
+.afrifinder-header__group {
 	display: flex;
 	align-items: center;
 	gap: 120px;
 }
-.inflanar-header__logo {
+.afrifinder-header__logo {
 	float: left;
 }
-.inflanar-header__logo img {
+.afrifinder-header__logo img {
 	max-width: 215px;
 	max-height: 50px;
 }
-.inflanar-header__menu {
+.afrifinder-header__menu {
 	display: flex;
 	align-items: center;
 	justify-content: right;
 }
-.inflanar-header__menu .nav-menu li {
+.afrifinder-header__menu .nav-menu li {
 	display: inline-block;
 }
-.inflanar-header__menu .navbar {
+.afrifinder-header__menu .navbar {
 	padding: 0;
 }
-.inflanar-header__menu .nav-menu li {
+.afrifinder-header__menu .nav-menu li {
 	display: inline-block;
 	margin-right: 25px;
 	color: #fff;
 	position: relative;
 }
-.inflanar-header__menu .nav-menu li:last-child{
+.afrifinder-header__menu .nav-menu li:last-child{
     margin: 0;
 }
-.inflanar-header__menu .nav-menu li a {
+.afrifinder-header__menu .nav-menu li a {
 	padding: 20px 0;
 	display: inline-block;
 	color: #333;
@@ -125,8 +88,8 @@ Version:	1.0
 	font-weight: 400;
 	font-family: "agrandir-regular";
 }
-.inflanar-header__menu .nav-menu li a:hover,
-.inflanar-header__menu .nav-menu li.active a,
+.afrifinder-header__menu .nav-menu li a:hover,
+.afrifinder-header__menu .nav-menu li.active a,
 #offcanvas-menu li a:hover,
 #offcanvas-menu li.active a{
 	color:#FE2C55;
@@ -155,7 +118,7 @@ Version:	1.0
 }
 
 /* sub-menu Menu */
-.inflanar-header .navigation li .sub-menu {
+.afrifinder-header .navigation li .sub-menu {
 	position: absolute;
 	top: 62px;
 	width: 220px;
@@ -173,20 +136,20 @@ Version:	1.0
 	padding: 15px 0px;
 	border: 1px solid #cccccc47;
 }
-.inflanar-header .navigation li:hover .sub-menu{
+.afrifinder-header .navigation li:hover .sub-menu{
 	opacity:1;
 	visibility:visible;
 	transform:translateY(0px);
 }
-.inflanar-header .navigation li .sub-menu li {
+.afrifinder-header .navigation li .sub-menu li {
 	display: block;
 	margin: 0;
 	text-align: left;
 }
-.inflanar-header .navigation li .sub-menu li:last-child{
+.afrifinder-header .navigation li .sub-menu li:last-child{
 	border:none;
 }
-.inflanar-header .navigation li .sub-menu li a {
+.afrifinder-header .navigation li .sub-menu li a {
 	color: #647082 !important;
 	display: block;
 	padding: 7px 25px;
@@ -195,31 +158,31 @@ Version:	1.0
 	font-weight: 400;
 	border-bottom: 1px solid #cccccc40;
 }
-.inflanar-header .navigation li .sub-menu li:last-child a{
+.afrifinder-header .navigation li .sub-menu li:last-child a{
 	border:none;
 }
-.inflanar-header .navigation li .sub-menu li a:hover {
+.afrifinder-header .navigation li .sub-menu li a:hover {
 	color: #FE2C55!important;
 	padding: 7px 25px;
 	margin-left: 5px;
 }
-.inflanar-header .navigation li a i {
+.afrifinder-header .navigation li a i {
 	margin-left: 5px;
 	font-weight: 600;
 	font-size: 12px;
 }
 
-.inflanar-header .navigation li .sub-menu li a::before {
+.afrifinder-header .navigation li .sub-menu li a::before {
 	display: none;
 }
-.inflanar-header li.menu-item-has-children a::after {
+.afrifinder-header li.menu-item-has-children a::after {
 	margin-left: 7px;
 	font-size: 14px;
 	font-family: "Font Awesome 6 Free";
 	font-weight: 600;
 	content: "\f107";
 }
-.inflanar-header li.menu-item-has-children .sub-menu li a::after {
+.afrifinder-header li.menu-item-has-children .sub-menu li a::after {
     display: none;
 }
 .hd-inner-border {
@@ -228,33 +191,33 @@ Version:	1.0
 .no-sticky {
 	position: relative;
 }
-.inflanar-header__button {
+.afrifinder-header__button {
 	display: flex;
 	align-items: center;
 	gap: 50px;
 }
-.inflanar-header__button.inflanar-header__button--v2{
+.afrifinder-header__button.afrifinder-header__button--v2{
 	gap:20px;
 }
 
 
-.inflanar-btn.inflanar-btn__nbg {
+.afrifinder-btn.afrifinder-btn__nbg {
 	color: #333333;
 	padding: 0;
 	box-shadow: none;
 	background: transparent;
 	box-shadow: none;
 }
-.inflanar-btn.inflanar-btn__nbg:hover{
+.afrifinder-btn.afrifinder-btn__nbg:hover{
 	color:#FE2C55;
 }
-.inflanar-btn.inflanar-btn__nbg::before{
+.afrifinder-btn.afrifinder-btn__nbg::before{
 	display: none;
 }
-.inflanar-btn.inflanar-btn--header {
+.afrifinder-btn.afrifinder-btn--header {
 	padding: 0 35px;
 }
-.inflanar-header__icon {
+.afrifinder-header__icon {
 	background: #F5F4FF;
 	border: 1px solid #FE2C55;
 	border-radius: 4px;
@@ -265,51 +228,51 @@ Version:	1.0
 	justify-content: center;
 	align-items: center;
 }
-.inflanar-header__icon:hover{
+.afrifinder-header__icon:hover{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
-.inflanar-header__icon svg {
+.afrifinder-header__icon svg {
 	fill: currentColor;
 	max-width: 28px;
 }
 
-.inflanar-header__icon:hover{
+.afrifinder-header__icon:hover{
 	background-color: #FE2C55;
 	color:#fff;
 }
 
 /* Header V2 */
-.inflanar-header.inflanar-header__v2 {
+.afrifinder-header.afrifinder-header__v2 {
 	background: #fff;
 	position: relative;
 	box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.10);
 }
 
 /* Header Style V2 */
-.inflanar-header__menu.inflanar-header__menu--v2 .nav-menu li a:hover, 
-.inflanar-header__menu.inflanar-header__menu--v2 .nav-menu li.active a {
+.afrifinder-header__menu.afrifinder-header__menu--v2 .nav-menu li a:hover, 
+.afrifinder-header__menu.afrifinder-header__menu--v2 .nav-menu li.active a {
 	color: #1778F2;
 }
-.inflanar-header__menu.inflanar-header__menu--v2 .nav-menu li .sub-menu li a:hover{
+.afrifinder-header__menu.afrifinder-header__menu--v2 .nav-menu li .sub-menu li a:hover{
 	color: #1778F2 !important; 
 }
-.inflanar-header--v2 .inflanar-header__middle {
+.afrifinder-header--v2 .afrifinder-header__middle {
 	background: #fff;
 }
-.inflanar-header.inflanar-header--v2  .inflanar-header__top {
+.afrifinder-header.afrifinder-header--v2  .afrifinder-header__top {
 	padding: 8px 0;
 }
 
-.inflanar-header__right a {
+.afrifinder-header__right a {
 	font-size: 14px;
 	font-weight: 400;
 }
-.inflanar-header__right img {
+.afrifinder-header__right img {
 	width: 26px;
 	height: 18px;
 	border-radius: 2px;
 }
-.inflanar-header__lang .select2-selection.select2-selection--single {
+.afrifinder-header__lang .select2-selection.select2-selection--single {
 	background: transparent;
 	border: none !important;
 	padding: 0;
@@ -319,7 +282,7 @@ Version:	1.0
 	justify-content: initial;
 	min-height: initial;
 }
-.inflanar-header__lang .select2-selection.select2-selection--single span {
+.afrifinder-header__lang .select2-selection.select2-selection--single span {
 	color: #fff !important;
 	padding: 0;
 	color: #fff !important;
@@ -327,19 +290,19 @@ Version:	1.0
 	color: #fff;
 	font-size: 14px !important;
 }
-.inflanar-header__lang .select2-selection.select2-selection--single span b {
+.afrifinder-header__lang .select2-selection.select2-selection--single span b {
 	border-color: #fff !important;
 	width: 8px;
 	height: 8px;
 }
 
-.inflanar-header__lang--list {
+.afrifinder-header__lang--list {
 	background: transparent;
 	border: none;
 	color: #fff;
 }
 
-.inflanar-header__lang--list:after {
+.afrifinder-header__lang--list:after {
 	border-color: #fff;
 	width: 7px;
 	height: 7px;
@@ -350,127 +313,127 @@ Version:	1.0
 	min-width: 98px !important;
 	left: -36px;
 }
-.inflanar-header__signup a {
+.afrifinder-header__signup a {
 	display: flex;
 	align-items: center;
 	gap: 5px;
 }
-.inflanar-header__lang {
+.afrifinder-header__lang {
 	display: flex;
 	align-items: center;
 	gap: 10px;
 }
-.inflanar-header__signup a {
+.afrifinder-header__signup a {
 	color: #fff;
 }
 
-.inflanar-header__right {
+.afrifinder-header__right {
 	display: flex;
 	align-items: center;
 	gap: 35px;
 }
 
 /* Header Style V3 */
-.inflanar-header__menu.inflanar-header__menu--v3 .nav-menu li a:hover, 
-.inflanar-header__menu.inflanar-header__menu--v3 .nav-menu li.active a {
+.afrifinder-header__menu.afrifinder-header__menu--v3 .nav-menu li a:hover, 
+.afrifinder-header__menu.afrifinder-header__menu--v3 .nav-menu li.active a {
 	color: #7735F2;
 }
-.inflanar-header__menu.inflanar-header__menu--v3 .nav-menu li .sub-menu li a:hover{
+.afrifinder-header__menu.afrifinder-header__menu--v3 .nav-menu li .sub-menu li a:hover{
 	color: #7735F2 !important; 
 }
-.inflanar-header.inflanar-header--v3 .inflanar-header__middle {
+.afrifinder-header.afrifinder-header--v3 .afrifinder-header__middle {
 	background: #fff;
 	box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
 	border-radius: 0px;
 }
-.inflanar-header .inflanar-btn {
+.afrifinder-header .afrifinder-btn {
 	border-radius: 10px !important;
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 10000px) {
 
-	#active-sticky.is-sticky .inflanar-header__middle {
+	#active-sticky.is-sticky .afrifinder-header__middle {
 		position: fixed;
 		top: 0;
 		padding: 0;
 		background: #FFFFFF;
 		box-shadow: 0px 9px 126px rgba(20, 0, 255, 0.18);
 	}
-	#active-sticky.is-sticky .inflanar-header__inside {
+	#active-sticky.is-sticky .afrifinder-header__inside {
 		padding-top: 10px;
 		padding-bottom: 10px;
 		padding-left: 0;
 		padding-right: 0;
 	}
-  #active-sticky.is-sticky  .inflanar-header__menu .nav-menu li a{
+  #active-sticky.is-sticky  .afrifinder-header__menu .nav-menu li a{
 	font-size: 16px;
   }
 
-  #active-sticky.is-sticky .inflanar-header__menu  .navigation li .sub-menu li a{
+  #active-sticky.is-sticky .afrifinder-header__menu  .navigation li .sub-menu li a{
 	font-size: 14px;
   }
 
   
-  #active-sticky.is-sticky .inflanar-header__icon {
+  #active-sticky.is-sticky .afrifinder-header__icon {
 	width: 50px;
 	height: 50px;
 	font-size: 15px;
   }
-  #active-sticky.is-sticky .inflanar-header__icon svg {
+  #active-sticky.is-sticky .afrifinder-header__icon svg {
 	font-size: 15px !important;
 	width: 20px;
   }
-  #active-sticky.is-sticky .inflanar-btn {
+  #active-sticky.is-sticky .afrifinder-btn {
 	font-size: 16px;
 	height: 50px;
 }
 }
 
 @media only screen and (max-width: 767px){
-	.inflanar-topbar-flex {
+	.afrifinder-topbar-flex {
 		justify-content: center;
 		align-items: center;
 		gap: 5px;
 	}
-	.inflanar-header__list {
+	.afrifinder-header__list {
 		justify-content: center;
 		align-items: center;
 		gap: 15px;
 		flex-wrap: wrap;
 	}
-	.inflanar-header__list li{
+	.afrifinder-header__list li{
 		margin:0;
 		padding:0;
 		border: none;
 	}
-	.inflanar-filter-group .inflanar-btn {
+	.afrifinder-filter-group .afrifinder-btn {
 		height: 55px !important;
 		line-height: 55px !important;
 	}
-	.inflanar-header__logo img {
+	.afrifinder-header__logo img {
 		max-width: 170px;
 	}
-	.inflanar-header__lang {
+	.afrifinder-header__lang {
 		display: none;
 	}
 }
 @media only screen and (min-width: 0px) and (max-width: 991px) {
 
-	.inflanar-header__button {
+	.afrifinder-header__button {
 		display: none;
 	}
-	.inflanar-header__middle{
+	.afrifinder-header__middle{
 		padding:0;
 		position: relative;
 		top:0;
 	}
-	.inflanar-header .inflanar-header__menu {
+	.afrifinder-header .afrifinder-header__menu {
 		display: none;
 	}
-	.inflanar-social__topbar {
+	.afrifinder-social__topbar {
 		display: none !important;
 	}
-	.inflanar-header__inside {
+	.afrifinder-header__inside {
 		padding: 15px 0;
 	}
 }
@@ -481,56 +444,56 @@ Version:	1.0
 /*======================================
    Hero Area
 ========================================*/
-.inflanar-hero {
+.afrifinder-hero {
 	position: relative;
 }
-.inflanar-hero__content {
+.afrifinder-hero__content {
 	display: flex;
 	flex-direction: column;
 }
-.inflanar-hero__sub {
+.afrifinder-hero__sub {
 	font-size: 18px;
 }
-.inflanar-hero__title {
+.afrifinder-hero__title {
 	font-size: 68px;
 }
-.inflanar-hero__title span {
+.afrifinder-hero__title span {
 	color: #FE2C55;
 }
-.inflanar-hero__inside {
+.afrifinder-hero__inside {
 	min-height: 910px;
 	display: flex;
 	padding-top: 80px;
 	justify-content: center;
 	align-items: center;
 }
-.inflanar-arrow-left {
+.afrifinder-arrow-left {
 	position: absolute;
 	left: -8%;
 	top: 49%;
 	animation: action 1.5s infinite alternate;
 }
-.inflanar-hero-shape {
+.afrifinder-hero-shape {
 	position: absolute;
 	left: 0;
 	top: 0;
 	transform: translateY(-290px);
 }
 
-.inflanar-ptags {
+.afrifinder-ptags {
 	display: flex;
 	align-items: center;
 	gap: 25px;
 	margin-top: 25px;
 }
-.inflanar-ptags__list {
+.afrifinder-ptags__list {
 	display: flex;
 	align-items: center;
 	gap: 10px;
 	flex-wrap: wrap;
 }
 
-.inflanar-ptags__list a {
+.afrifinder-ptags__list a {
 	color: #333333;
 	font-size: 14px;
 	padding: 0 10px;
@@ -539,12 +502,12 @@ Version:	1.0
 	border: 1px solid rgba(51, 51, 51, 0.12);
 	box-shadow: 20px 20px 45px 5px rgba(0, 0, 0, 0.10);
 }
-.inflanar-ptags__list a:hover {
+.afrifinder-ptags__list a:hover {
 	background: #EE2960;
 	color: #fff;
 	border-color: transparent;
 }
-  .inflanar-ptags__title {
+  .afrifinder-ptags__title {
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -556,123 +519,123 @@ Version:	1.0
 	top: 0;
 }
 
-.inflanar-sclient {
+.afrifinder-sclient {
 	display: flex;
 	align-items: center;
 	gap: 25px;
 	margin-top: 60px;
 }
-.inflanar-sclient__list {
+.afrifinder-sclient__list {
 	display: flex;
 	align-items: center;
 }
-.inflanar-sclient__list img {
+.afrifinder-sclient__list img {
 	border-radius: 100%;
 	border: 4px solid #fff;
 	width: 85px;
 	height: 85px;
 	min-width: 85px;
 }
-.inflanar-sclient__list li:hover img {
+.afrifinder-sclient__list li:hover img {
 	transform: scale(0.9);
 }
-.inflanar-sclient__list li:nth-child(n){
+.afrifinder-sclient__list li:nth-child(n){
 	margin-left: -24px;
 }
-.inflanar-sclient__list li:nth-child(n)img{
+.afrifinder-sclient__list li:nth-child(n)img{
 	position: relative;
 	left: -24px;
 }
-.inflanar-sclient__list li:nth-child(1){
+.afrifinder-sclient__list li:nth-child(1){
 	margin:0
 }
-.inflanar-sclient__title span {
+.afrifinder-sclient__title span {
 	display: block;
 	color: #647082;
 	font-size: 16px;
 	font-weight: 400;
 }
-.inflanar-sclient__title {
+.afrifinder-sclient__title {
 	line-height: 30px;
 	margin: 0;
 	font-size: 24px;
 }
 
-.inflanar-hero__img {
+.afrifinder-hero__img {
 	min-width: 50%;
 	max-width: 50%;
 }
-.inflanar-hero__img > img {
+.afrifinder-hero__img > img {
 	width: 100%;
 	height: 735px;
 }
-.inflanar-hero-social {
+.afrifinder-hero-social {
 	position: absolute;
 	display: inline;
 	height: initial;
 }
-.inflanar-hero-social img {
+.afrifinder-hero-social img {
 	max-width: 80px;
 }
-.inflanar-hero-social.inflanar-hero-social--1 {
+.afrifinder-hero-social.afrifinder-hero-social--1 {
 	top: 5%;
 	right: -6%;
 }
 
-.inflanar-hero-social.inflanar-hero-social--2 {
+.afrifinder-hero-social.afrifinder-hero-social--2 {
 	bottom: 18%;
 	right: -3%;
 }
-.inflanar-hero-social.inflanar-hero-social--4 {
+.afrifinder-hero-social.afrifinder-hero-social--4 {
 	top: -4%;
 	left: 12%;
 }
-.inflanar-hero-social.inflanar-hero-social--3 {
+.afrifinder-hero-social.afrifinder-hero-social--3 {
 	bottom: 10%;
 	left: 12%;
 }
 
-.inflanar-hero-social.inflanar-hero-social--5 {
+.afrifinder-hero-social.afrifinder-hero-social--5 {
 	left: 16%;
 	top: 20%;
   }
-  .inflanar-hero-social.inflanar-hero-social--6 {
+  .afrifinder-hero-social.afrifinder-hero-social--6 {
 	top: 24%;
 	right: 8%;
   }
-  .inflanar-hero-social.inflanar-hero-social--7 {
+  .afrifinder-hero-social.afrifinder-hero-social--7 {
 	bottom: 15%;
 	left: 10%;
   }
-  .inflanar-hero-social.inflanar-hero-social--8 {
+  .afrifinder-hero-social.afrifinder-hero-social--8 {
 	right: 18%;
 	bottom: 20%;
   }
 
-.inflanar-hero.inflanar-hero--v2 .inflanar-hero__sub,
-.inflanar-hero.inflanar-hero--v2 .inflanar-hero__title,
-.inflanar-hero.inflanar-hero--v2 .inflanar-hero__title span {
+.afrifinder-hero.afrifinder-hero--v2 .afrifinder-hero__sub,
+.afrifinder-hero.afrifinder-hero--v2 .afrifinder-hero__title,
+.afrifinder-hero.afrifinder-hero--v2 .afrifinder-hero__title span {
 	color: #fff;
 }
-.inflanar-hero.inflanar-hero--v2 .inflanar-hero__inside {
+.afrifinder-hero.afrifinder-hero--v2 .afrifinder-hero__inside {
 	min-height: 1000px;
 	padding-top: 115px;
 }
-.inflanar-hero__vector img {
+.afrifinder-hero__vector img {
 	position: absolute;
 	left: 0;
 	bottom: 0;
 }
-.inflanar-hero.inflanar-hero--v2 .inflanar-hero__title {
+.afrifinder-hero.afrifinder-hero--v2 .afrifinder-hero__title {
 	margin: 0;
 }
-.inflanar-hero--v3 .inflanar-hero__button {
+.afrifinder-hero--v3 .afrifinder-hero__button {
 	margin-top: 45px;
 }
-.inflanar-hero--v3 .inflanar-hero__inside {
+.afrifinder-hero--v3 .afrifinder-hero__inside {
 	min-height: 1020px;
 }
-.inflanar-hero-mixed {
+.afrifinder-hero-mixed {
 	position: absolute;
 	right: 0;
 	top: 17%;
@@ -680,15 +643,15 @@ Version:	1.0
 	display: flex;
 	justify-content: end;
 }
-.inflanar-hero-mixed img {
+.afrifinder-hero-mixed img {
 	width: 100%;
 	height: 825px;
 }
-.inflanar-search-form.inflanar-search-form__hero {
+.afrifinder-search-form.afrifinder-search-form__hero {
 	max-width: 91%;
 }
 @media only screen and (min-width: 1000px) and (max-width: 1400px) {
-.inflanar-hero-mixed img {
+.afrifinder-hero-mixed img {
 	width: 100%;
 	height: 600px;
 }
@@ -697,47 +660,47 @@ Version:	1.0
 
 @media only screen and (min-width: 0px) and (max-width: 991px) {
 	
-	.inflanar-list-style.inflanar-list-style__row li {
+	.afrifinder-list-style.afrifinder-list-style__row li {
 		width: 100% !important;
 	}
-	.inflanar-hero__inside{
+	.afrifinder-hero__inside{
 		flex-direction: column;
 		gap: 50px;
 		align-items: initial;
 	}
-	.inflanar-hero-mixed {
+	.afrifinder-hero-mixed {
 		display: none;
 	}
 	
-	.inflanar-hero-shape {
+	.afrifinder-hero-shape {
 		transform: translateY(0px);
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.inflanar-hero__title {
+	.afrifinder-hero__title {
 		font-size: 48px !important;
 	}
-	.inflanar-hero__inside {
+	.afrifinder-hero__inside {
 		min-height: 650px;
 		padding-top: 120px;
 	}
 	
-	.inflanar-hero__img > img {
+	.afrifinder-hero__img > img {
 		width: 500px;
 		height: 500px;
 	}
-	.inflanar-hero__img {
+	.afrifinder-hero__img {
 		min-width: 69%;
 		max-width: 50%;
 	}
-	.inflanar-hero.inflanar-hero--v2 .inflanar-hero__inside {
+	.afrifinder-hero.afrifinder-hero--v2 .afrifinder-hero__inside {
 		min-height: 800px;
 	}
-	.inflanar-hero--v3 .inflanar-hero__inside {
+	.afrifinder-hero--v3 .afrifinder-hero__inside {
 		min-height: 550px;
 		padding-top: 70px;
 	}
-	.inflanar-hero.inflanar-hero--v3 {
+	.afrifinder-hero.afrifinder-hero--v3 {
 		background: #fff;
 	}
 
@@ -745,74 +708,74 @@ Version:	1.0
 }
 
 @media only screen and (max-width: 767px){
-	.inflanar-hero__title {
+	.afrifinder-hero__title {
 		font-size: 34px !important;
 	}
-	.inflanar-hero__inside {
+	.afrifinder-hero__inside {
 		min-height: 650px;
 		padding-top: 100px;
 		align-items: start;
 	}
-	.inflanar-hero.inflanar-hero--v2 .inflanar-hero__inside {
+	.afrifinder-hero.afrifinder-hero--v2 .afrifinder-hero__inside {
 		padding-top: 140px;
 	}
-	.inflanar-hero__img > img {
+	.afrifinder-hero__img > img {
 		width: 100%;
 		height: 300px;
 	}
 
-	.inflanar-hero-social img {
+	.afrifinder-hero-social img {
 		max-width: 40px;
 	}
 
-	.inflanar-ptags {
+	.afrifinder-ptags {
 		flex-direction: column;
 		align-items: start;
 		gap: 10px;
 	}
-	.inflanar-sclient__list img {
+	.afrifinder-sclient__list img {
 		width: 64px;
 		height: 64px;
 		min-width: 64px;
 	}
-	.inflanar-sclient {
+	.afrifinder-sclient {
 		margin-top: 30px;
 	}
-	.inflanar-hero__sub {
+	.afrifinder-hero__sub {
 		font-size: 14px;
 	}
-	.inflanar-hero.inflanar-hero--v2 .inflanar-hero__inside {
+	.afrifinder-hero.afrifinder-hero--v2 .afrifinder-hero__inside {
 		min-height: 550px;
 	}
-	.inflanar-hero__img {
+	.afrifinder-hero__img {
 		min-width: 80%;
 		max-width: 80%;
 	}
-	.inflanar-hero__group-img  {
+	.afrifinder-hero__group-img  {
 		margin-top:30px;
 	}
 
-	.inflanar-hero--v3 .inflanar-hero__inside {
+	.afrifinder-hero--v3 .afrifinder-hero__inside {
 		min-height: 585px;
 		padding-top: 65px;
 	}
-	.inflanar-hero.inflanar-hero--v3{
+	.afrifinder-hero.afrifinder-hero--v3{
 		background: #fff !important;
 	}
 }
 @media only screen and (max-width: 400px){
-.inflanar-hero__title {
+.afrifinder-hero__title {
 	font-size: 28px !important;
 	margin-bottom: 20px;
 }
-.inflanar-sclient {
+.afrifinder-sclient {
 	flex-direction: column;
 	align-items: start;
 }
-.inflanar-sclient__list{
+.afrifinder-sclient__list{
 	align-items: start;
 }
-.inflanar-hero__img {
+.afrifinder-hero__img {
 	min-width: 90%;
 	max-width: 90%;
 }
@@ -826,11 +789,11 @@ Version:	1.0
 /*======================================
    Features List
 ========================================*/ 
-.inflanar-features-list {
+.afrifinder-features-list {
 	padding: 80px;
 	border-radius: 12px;
 }
-.inflanar-features-list__icon {
+.afrifinder-features-list__icon {
 	width: 80px;
 	height: 80px;
 	background: #FE2C55;
@@ -839,18 +802,18 @@ Version:	1.0
 	align-items: center;
 	border-radius: 10px;
 }
-.inflanar-features-list__single:hover .inflanar-features-list__icon {
+.afrifinder-features-list__single:hover .afrifinder-features-list__icon {
 	transform: scale(1.1);
 }
-.inflanar-features-list__icon img{
+.afrifinder-features-list__icon img{
 	max-width:48px;
 }
-  .inflanar-features-list__first {
+  .afrifinder-features-list__first {
 	display: flex;
 	align-items: center;
 	gap: 10px;
   }
-  .inflanar-features-list__number {
+  .afrifinder-features-list__number {
 	margin: 0;
 	position: absolute;
 	background: #F2C94C;
@@ -865,52 +828,52 @@ Version:	1.0
 	right: -8px;
 	top: 0;
 }
-.inflanar-features-list__single:hover .inflanar-features-list__number {
+.afrifinder-features-list__single:hover .afrifinder-features-list__number {
 	transform: scale(1.1);
 }
-.inflanar-features-list__single {
+.afrifinder-features-list__single {
 	display: flex;
 	flex-direction: column;
 	gap: 35px;
 }
-  .inflanar-features-list__head {
+  .afrifinder-features-list__head {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
   }
-  .inflanar-features-list__title {
+  .afrifinder-features-list__title {
 	margin: 0;
 	font-size: 24px;
 }
-.inflanar-features-list__body {
+.afrifinder-features-list__body {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 }
-.inflanar-features-list__arrow {
+.afrifinder-features-list__arrow {
 	animation-name: flash;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
   }
-  .inflanar-features-list__arrow.inflanar-features-list__arrow--one {
+  .afrifinder-features-list__arrow.afrifinder-features-list__arrow--one {
 	animation-duration: 7s;
   }
-  .inflanar-features-list__arrow--two {
+  .afrifinder-features-list__arrow--two {
 	animation-duration: 10s;
   }
-  .inflanar-features-list__arrow.inflanar-features-list__arrow--three {
+  .afrifinder-features-list__arrow.afrifinder-features-list__arrow--three {
 	animation-duration: 13s;
   }
 @media only screen and (max-width: 767px) {
-	.inflanar-features-list {
+	.afrifinder-features-list {
 		padding: 0;
 		background: none !important;
 	}
-	.inflanar-features-list__title {
+	.afrifinder-features-list__title {
 		margin: 0;
 		font-size: 18px;
 	}
-	.inflanar-features-list__single {
+	.afrifinder-features-list__single {
 		gap: 20px;
 	}
 }
@@ -923,7 +886,7 @@ Version:	1.0
 /*======================================
    Member Area
 ========================================*/  
-.inflanar-influencer {
+.afrifinder-influencer {
 	background: #fff;
 	border-radius: 4px;
 	overflow: hidden;
@@ -932,7 +895,7 @@ Version:	1.0
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 	border-radius: 8px;
 }
-.inflanar-influencer:hover{
+.afrifinder-influencer:hover{
 	transform: translateY(-10px);
 }
 .inflancer-hborder {
@@ -942,7 +905,7 @@ Version:	1.0
 	margin-left: -0.5px;
 	max-height: 42px;
 }
-.inflanar-influencer__head {
+.afrifinder-influencer__head {
 	background: #FFEAE5;
 	padding: 30px 65px;
 	display: flex;
@@ -954,7 +917,7 @@ Version:	1.0
 	background: #FFEAE6;
 	border-radius: 10px;
 }
-.inflanar-influencer__head img {
+.afrifinder-influencer__head img {
 	width: 100%;
 	box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.15);
 	border-radius: 10px;
@@ -964,12 +927,12 @@ Version:	1.0
 	height: 154px;
 	background: #fff;
 }
-.inflanar-influencer__body {
+.afrifinder-influencer__body {
 	padding: 20px 20px 0;
 	background: #fff;
 	z-index: 100;
 }
-  .inflanar-influencer__title span {
+  .afrifinder-influencer__title span {
 	display: block;
 	color: #647082;
 	font-weight: 400;
@@ -977,74 +940,74 @@ Version:	1.0
 	line-height: initial;
 	margin-top: 10px;
 }
-.inflanar-influencer__title {
+.afrifinder-influencer__title {
 	color: #111111;
 	font-size: 22px;
 	margin: 0;
 	font-weight: 600;
 }
-.inflanar-influencer__title a {
+.afrifinder-influencer__title a {
 	font-size: 20px;
 	line-height: 20px;
 }
-.inflanar-influencer:hover .inflanar-influencer__title a{
+.afrifinder-influencer:hover .afrifinder-influencer__title a{
 	color:#FE2C55;
   }
 
-.inflanar-influencer__follower {
+.afrifinder-influencer__follower {
 	display: flex;
 	justify-content: space-between;
 	border-bottom: 1px solid #F4F4F4;
 	padding-bottom: 12px;
 	align-items: center;
 }
-.inflanar-influencer__follower--single {
+.afrifinder-influencer__follower--single {
 	display: flex;
 	flex-direction: column;
 }
-.inflanar-influencer__follower--single b {
+.afrifinder-influencer__follower--single b {
 	font-size: 16px;
 	font-weight: 700;
 }
-.inflanar-influencer__follower--single span {
+.afrifinder-influencer__follower--single span {
 	font-size: 14px;
 	font-weight: 400;
 	color: #647082;
 }
 
-.inflanar-influencer__head.inflanar-influencer__head--v2{
+.afrifinder-influencer__head.afrifinder-influencer__head--v2{
 	background-color: #D2F0F4;
 }
-.inflanar-influencer__head.inflanar-influencer__head--v3{
+.afrifinder-influencer__head.afrifinder-influencer__head--v3{
 	background-color: #EAF8C2
 }
-.inflanar-influencer__head.inflanar-influencer__head--v4{
+.afrifinder-influencer__head.afrifinder-influencer__head--v4{
 	background-color: #FCE7FF
 }
 
 
-/* Inflanar V2 */
-.inflanar-influencer.inflanar-influencer--v2 {
+/* afrifinder V2 */
+.afrifinder-influencer.afrifinder-influencer--v2 {
 	padding: 40px 30px 30px;
 }
 
-.inflanar-influencer.inflanar-influencer--v2:hover .inflanar-influencer__title a{
+.afrifinder-influencer.afrifinder-influencer--v2:hover .afrifinder-influencer__title a{
 	color:#27AE60;
 }
-.inflanar-influencer.inflanar-influencer--v2 .inflanar-influencer__body {
+.afrifinder-influencer.afrifinder-influencer--v2 .afrifinder-influencer__body {
 	margin-top: 20px;
 	padding: 0;
 }
-.inflanar-influencer.inflanar-influencer--v2 .inflanar-influencer__head {
+.afrifinder-influencer.afrifinder-influencer--v2 .afrifinder-influencer__head {
 	background: transparent;
 	padding: 0;
 }
 
-.inflanar-influencer.inflanar-influencer--v2 .inflanar-influencer__head img{
+.afrifinder-influencer.afrifinder-influencer--v2 .afrifinder-influencer__head img{
 	box-shadow: none;
 }
 
-.inflanar-influencer.inflanar-influencer--v2 .inflanar-influencer__follower {
+.afrifinder-influencer.afrifinder-influencer--v2 .afrifinder-influencer__follower {
 	background: #F2EDFE;
 	padding: 10px 20px;
 	border-radius: 10px;
@@ -1057,63 +1020,63 @@ Version:	1.0
    Services
 ========================================*/ 
 
-.inflanar-flex {
+.afrifinder-flex {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
-.inflanar-service {
+.afrifinder-service {
 	border-radius: 4px;
 	overflow: hidden;
 	background: #fff;
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 	border-radius: 10px;
 }
-.inflanar-service:hover {
+.afrifinder-service:hover {
 	transform: translateY(-10px);
 }
-.inflanar-service__head img {
+.afrifinder-service__head img {
 	width: 100% !important;
 	border-radius: 4px;
 	height: 195px;
 }
-.inflanar-service__head {
+.afrifinder-service__head {
 	overflow: hidden;
 }
-.inflanar-service:hover .inflanar-service__head img {
+.afrifinder-service:hover .afrifinder-service__head img {
 	transform: scale(1.1);
 }
-.inflanar-service__body {
+.afrifinder-service__body {
 	padding: 20px;
 }
-.inflanar-service__top {
+.afrifinder-service__top {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 10px;
 }
-.inflanar-service__cat {
+.afrifinder-service__cat {
 	display: flex;
 	align-items: center;
 	gap: 5px;
 	color: #1778F2 !important;
 	font-size: 14px;
 }
-.inflanar-service__price {
+.afrifinder-service__price {
 	font-size: 24px;
 	color: #FE2C55;
 	font-weight: 700;
 }
-.inflanar-service__title {
+.afrifinder-service__title {
 	margin-bottom: 0px;
 }
-.inflanar-service__title a {
+.afrifinder-service__title a {
 	font-size: 24px;
 }
-.inflanar-service:hover .inflanar-service__title a{
+.afrifinder-service:hover .afrifinder-service__title a{
 	color:#FE2C55;
 }
-.inflanar-service__author {
+.afrifinder-service__author {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -1121,37 +1084,37 @@ Version:	1.0
 	padding-top: 20px;
 	border-top: 1px solid #EAEAEA;
 }
-.inflanar-service__author--info a {
+.afrifinder-service__author--info a {
 	display: flex;
 	align-items: center;
 	gap: 5px;
 	font-size: 16px;
 	color: #647082;
 }
-.inflanar-service__author--label {
+.afrifinder-service__author--label {
 	color: #647082;
 	font-size: 14px;
 }
-.inflanar-service__author--rating {
+.afrifinder-service__author--rating {
 	display: flex;
 	align-items: center;
 	gap: 8px;
 }
-.inflanar-service__author--star {
+.afrifinder-service__author--star {
 	display: flex;
 	align-items: center;
 }
-.inflanar-service__author--star span {
+.afrifinder-service__author--star span {
 	line-height: initial;
 	display: flex;
 }
-.inflanar-service__author--info img{
+.afrifinder-service__author--info img{
 	width:25px;
 	height: 25px;
 	min-width: 25px;
 	border-radius: 100%;
 }
-.inflanar-service__wishlist {
+.afrifinder-service__wishlist {
 	position: absolute;
 	top: 15px;
 	right: 15px;
@@ -1159,32 +1122,32 @@ Version:	1.0
 	line-height: initial;
 	font-size: 20px;
 }
-.inflanar-service__wishlist:hover,
-.inflanar-service__wishlist.active{
+.afrifinder-service__wishlist:hover,
+.afrifinder-service__wishlist.active{
 	color:#FE2C55;
 }
 
 /* Services */
-.inflanar-service.inflanar-service--v2 {
+.afrifinder-service.afrifinder-service--v2 {
 	display: flex;
 	align-items: center;
 	padding: 20px;
 	gap: 20px;
 }
 
-.inflanar-service--v2 .inflanar-service__head img {
+.afrifinder-service--v2 .afrifinder-service__head img {
 	width: 100% !important;
 	height: 265px;
   }
-  .inflanar-service--v2 .inflanar-service__head {
+  .afrifinder-service--v2 .afrifinder-service__head {
 	min-width: 220px;
 }
-  .inflanar-service--v2 .inflanar-service__wishlist {
+  .afrifinder-service--v2 .afrifinder-service__wishlist {
 	left: 15px;
 	right: initial;
 	top: 15px;
   }
-  .inflanar-service.inflanar-service--v2 .inflanar-service__price {
+  .afrifinder-service.afrifinder-service--v2 .afrifinder-service__price {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -1196,51 +1159,51 @@ Version:	1.0
 	left: 15px;
 }
   
-  .inflanar-service.inflanar-service--v2 .inflanar-service__author--info {
+  .afrifinder-service.afrifinder-service--v2 .afrifinder-service__author--info {
 	margin-top: 10px;
   }
-  .inflanar-service.inflanar-service--v2  .inflanar-service__author--info a {
+  .afrifinder-service.afrifinder-service--v2  .afrifinder-service__author--info a {
 	gap: 15px;
   }
-  .inflanar-service.inflanar-service--v2  .inflanar-service__author--info img {
+  .afrifinder-service.afrifinder-service--v2  .afrifinder-service__author--info img {
 	width: 40px;
 	border: 3px solid #DAEAFF;
 	height: 40px !important;
   }
-  .inflanar-service.inflanar-service--v2 .inflanar-service__body {
+  .afrifinder-service.afrifinder-service--v2 .afrifinder-service__body {
 	padding: 0;
 }
-.inflanar-service.inflanar-service--v2:hover .inflanar-service__title a {
+.afrifinder-service.afrifinder-service--v2:hover .afrifinder-service__title a {
 	color: #1778F2;
 }
 
 /* Service Sidebar */
-.inflanar-service-sidebar {
+.afrifinder-service-sidebar {
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 	background: #fff;
 	padding: 35px 30px;
 	border-radius: 10px;
 }
 
-  .inflanar-service-sidebar__filters {
+  .afrifinder-service-sidebar__filters {
 	display: flex;
 	flex-direction: column;
 }
-.inflanar-service-sidebar__group {
+.afrifinder-service-sidebar__group {
 	width: 100%;
   }
-  .inflanar-service-sidebar__title {
+  .afrifinder-service-sidebar__title {
 	font-size: 24px;
 	margin: 0 0 20px !important;
 	padding-bottom: 15px;
 	border-bottom: 1px solid #EAEAEA;
 }
-.inflanar-form-checkbox {
+.afrifinder-form-checkbox {
 	display: flex;
 	align-items: center;
 	gap: 10px;
 }
-.inflanar-form-checkbox label {
+.afrifinder-form-checkbox label {
 	cursor: pointer;
 	display: flex;
 	justify-content: space-between;
@@ -1281,11 +1244,11 @@ input[type="checkbox"]:checked::before {
 	height: 100%;
 	font-size: 8px;
 }
-.inflanar-form-label {
+.afrifinder-form-label {
 	color: #647082;
 	font-size: 16px;
 }
-.inflanar-form-checkbox input:checked + .inflanar-form-label {
+.afrifinder-form-checkbox input:checked + .afrifinder-form-label {
 	color: #333333;
 }
 
@@ -1341,57 +1304,57 @@ input[type="checkbox"]:checked::before {
 	height: initial !important;
 	min-height: initial !important;
 }
-.inflanar-influencer-card {
+.afrifinder-influencer-card {
 	padding: 30px 50px;
 	background-color: #7065F0;
 	border-radius: 4px;
 }
-.inflanar-influencer-card__title {
+.afrifinder-influencer-card__title {
 	font-size: 20px;
 }
 
-.inflanar-service__author--starv2 {
+.afrifinder-service__author--starv2 {
 	justify-content: end;
 	width: 100%;
 }
 
 
 /* Service Detail */
-.inflanar-sdetail__thumb img {
+.afrifinder-sdetail__thumb img {
 	width: 100%;
 	height: 400px;
 	border-radius: 10px 10px 0px 0px;
 }
-.inflanar-sdetail {
+.afrifinder-sdetail {
 	background: #fff;
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 	padding: 20px;
 	border-radius: 10px;
 }
-  .inflanar-sdetail__content {
+  .afrifinder-sdetail__content {
 	padding: 45px 30px;
   }
 
-  .inflanar-sdetail__tcontent--title {
+  .afrifinder-sdetail__tcontent--title {
 	font-size: 24px;
 	padding-bottom: 10px;
 	margin-bottom: 15px;
 	border-bottom: 1px solid #EAEAEA;
   }
-  .inflanar-sdetail__title {
+  .afrifinder-sdetail__title {
 	font-size: 36px;
 	margin: 0;
   }
-  .inflanar-sdetail__tabnav {
+  .afrifinder-sdetail__tabnav {
 	margin-top: 30px;
 	display: flex;
 	flex-direction: row;
 	gap: 30px;
   }
-  .inflanar-sdetail__tabnav svg {
+  .afrifinder-sdetail__tabnav svg {
 	fill: #333;
   }
-  .inflanar-sdetail__tabnav a {
+  .afrifinder-sdetail__tabnav a {
 	background: #FFE8ED;
 	font-weight: 400;
 	font-size: 18px;
@@ -1399,16 +1362,16 @@ input[type="checkbox"]:checked::before {
 	border-radius: 4px !important;
 	padding: 15px 25px;
 }
-  .inflanar-sdetail__tabnav a span {
+  .afrifinder-sdetail__tabnav a span {
 	display: flex;
 	align-items: center;
 	gap: 10px;
   }
-  .inflanar-sdetail__tabnav a.active,.inflanar-sdetail__tabnav a:hover {
+  .afrifinder-sdetail__tabnav a.active,.afrifinder-sdetail__tabnav a:hover {
 	background: #FE2C55 !important;
 	color: #fff;
   }
-  .inflanar-sdetail__tabnav a.active svg, .inflanar-sdetail__tabnav a:hover svg {
+  .afrifinder-sdetail__tabnav a.active svg, .afrifinder-sdetail__tabnav a:hover svg {
 	fill: #fff !important;
   }
 
@@ -1423,7 +1386,7 @@ input[type="checkbox"]:checked::before {
 
 
 @media only screen and (max-width: 767px) {
-	.inflanar-service.inflanar-service--v2 {
+	.afrifinder-service.afrifinder-service--v2 {
 		flex-direction: column;
 	}
 
@@ -1437,7 +1400,7 @@ input[type="checkbox"]:checked::before {
 /*======================================
    Book Page
 ========================================*/ 
-.inflanar-bdetail__tabnav {
+.afrifinder-bdetail__tabnav {
 	display: inline-flex;
 	flex-direction: row;
 	border-bottom: 1px solid #EAEAEA;
@@ -1446,7 +1409,7 @@ input[type="checkbox"]:checked::before {
 	border-radius: 0px;
 	gap: 90px;
 }
-  .inflanar-bdetail__tabnav a {
+  .afrifinder-bdetail__tabnav a {
 	border: none;
 	display: flex;
 	align-items: center;
@@ -1457,7 +1420,7 @@ input[type="checkbox"]:checked::before {
 	padding-bottom: 20px;
 	padding-right: 30px;
 }
-  .inflanar-bdetail__tabnav a span {
+  .afrifinder-bdetail__tabnav a span {
 	width: 52px;
 	height: 52px;
 	border: ;
@@ -1469,13 +1432,13 @@ input[type="checkbox"]:checked::before {
 	color: #fff;
 	border-radius: 100%;
   }
-  .inflanar-bdetail__tabnav a.active span,.inflanar-bdetail__tabnav a:hover span {
+  .afrifinder-bdetail__tabnav a.active span,.afrifinder-bdetail__tabnav a:hover span {
 	background: #27AE60
   }
-  .inflanar-bdetail__tabnav a.active,.inflanar-bdetail__tabnav a:hover{
+  .afrifinder-bdetail__tabnav a.active,.afrifinder-bdetail__tabnav a:hover{
 	color: #27AE60 !important;;
   }
-  .inflanar-bdetail__tabnav a::before {
+  .afrifinder-bdetail__tabnav a::before {
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -1486,54 +1449,54 @@ input[type="checkbox"]:checked::before {
 	visibility: hidden;
 	bottom: -0.5px;
 }
-  .inflanar-bdetail__tabnav a.active:before,
-  .inflanar-bdetail__tabnav a:hover:before{
+  .afrifinder-bdetail__tabnav a.active:before,
+  .afrifinder-bdetail__tabnav a:hover:before{
 	opacity: 1;
 	visibility: visible;
   }
   
-  .inflanar-opackage {
+  .afrifinder-opackage {
 	padding: 35px 30px;
 	background: #fff;
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 	border-radius: 5px;
 }
-.inflanar-opackage__title {
+.afrifinder-opackage__title {
 	font-size: 24px;
 	margin-bottom: 20px;
 }
-.inflanar-opackage__single {
+.afrifinder-opackage__single {
 	display: flex;
 	background: #F3F3F3;
 	gap: 25px;
 	border-radius: 5px;
 	margin-top: 20px;
 }
-.inflanar-opackage__thumb img {
+.afrifinder-opackage__thumb img {
 	width: 138px;
 	height: 100%;
 	min-width: 138px;
 }
-.inflanar-opackage__scontent {
+.afrifinder-opackage__scontent {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 25px 25px 25px 0;
 }
-.inflanar-opackage__aprice {
+.afrifinder-opackage__aprice {
 	min-width: 35%;
 	display: inline-flex;
 	flex-direction: column;
 	justify-content: end;
 	align-items: end;
 }
-  .inflanar-opackage__apgroup {
+  .afrifinder-opackage__apgroup {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-.inflanar-opackage__ltitle {
+.afrifinder-opackage__ltitle {
 	font-size: 18px;
 	font-weight: 500;
 	margin-bottom: 25px;
@@ -1580,7 +1543,7 @@ input[type="checkbox"]:checked::before {
 	min-width: 30px;
 	min-height: 30px;
 }
-.inflanar-default-cd .fc-toolbar-title {
+.afrifinder-default-cd .fc-toolbar-title {
 	font-size: 24px !important;
 	font-weight: 600;
 }
@@ -1588,7 +1551,7 @@ input[type="checkbox"]:checked::before {
 .fc-button-group span:before {
 	color: #fff;
 }
-.inflanar-default-cd .fc-header-toolbar {
+.afrifinder-default-cd .fc-header-toolbar {
 	padding: 0;
 	background: #FE2C55;
 	padding: 8px 18px;
@@ -1598,7 +1561,7 @@ input[type="checkbox"]:checked::before {
 	justify-content: center !important;
 	align-items: center !important;
 }
-.inflanar-default-cd  .fc-daygrid-body-natural .fc-daygrid-day-events {
+.afrifinder-default-cd  .fc-daygrid-body-natural .fc-daygrid-day-events {
 	margin-bottom: 5px !important;
 }
 .fc-col-header {
@@ -1634,23 +1597,23 @@ input[type="checkbox"]:checked::before {
 	align-items: center;
   }
 
-.inflanar-default-cd .fc-daygrid-day-number {
+.afrifinder-default-cd .fc-daygrid-day-number {
 	color: #2F3032;
 	font-weight: 400;
 	padding: 0;
 }
-.inflanar-default-cd td, .inflanar-default-cd th {
+.afrifinder-default-cd td, .afrifinder-default-cd th {
 	border: none;
 }
-.inflanar-default-cd .fc-scrollgrid {
+.afrifinder-default-cd .fc-scrollgrid {
 	border: none;
 }
-.inflanar-default-cd .fc-col-header-cell-cushion {
+.afrifinder-default-cd .fc-col-header-cell-cushion {
 	font-size: 13px;
 	color: #FB2B57;
 	font-weight: 500;
 }
-.inflanar-default-cd .fc-daygrid-day.fc-day-today {
+.afrifinder-default-cd .fc-daygrid-day.fc-day-today {
 	background: transparent;
 	border-radius: 100%;
 	min-width: 46px;
@@ -1658,7 +1621,7 @@ input[type="checkbox"]:checked::before {
 	line-height: 38px;
 	position: relative;
 }
-.inflanar-default-cd .fc-daygrid-day.fc-day-today a {
+.afrifinder-default-cd .fc-daygrid-day.fc-day-today a {
 	background: #0A82FD;
 	color: #fff !important;
 	border-radius: 100%;
@@ -1668,10 +1631,10 @@ input[type="checkbox"]:checked::before {
 	padding: 0;
 	margin: 0;
 }
-.inflanar-default-cd .fc-daygrid-day.fc-day-today a {
+.afrifinder-default-cd .fc-daygrid-day.fc-day-today a {
   color: #fff;
 }
-.inflanar-default-cd .fc-daygrid-day-number {
+.afrifinder-default-cd .fc-daygrid-day-number {
 	color: #647082;
 	font-weight: 400;
 	font-size: 14px !important;
@@ -1692,7 +1655,7 @@ input[type="checkbox"]:checked::before {
 .fc-today-button {
     display: none !important;
 }
-.inflanar-default-cd .fc-button-primary {
+.afrifinder-default-cd .fc-button-primary {
 	background: transparent !important;
 	border: none !important;
 	padding: 0 !important;
@@ -1702,21 +1665,21 @@ input[type="checkbox"]:checked::before {
 	width: 15px !important;
 	box-shadow: none !important;
 }
-.inflanar-default-cd .fc-button span {
+.afrifinder-default-cd .fc-button span {
 	color: #C3C3C3;
 }
 
-.inflanar-default-cd .fc-button.fc-next-button span{
+.afrifinder-default-cd .fc-button.fc-next-button span{
     color:#54A7FE;
 }
-.inflanar-default-cd .fc-scrollgrid {
+.afrifinder-default-cd .fc-scrollgrid {
 	margin: 0;
 }
-.inflanar-default-cd .fc-scrollgrid-sync-table {
+.afrifinder-default-cd .fc-scrollgrid-sync-table {
 	margin: 0;
 	margin-left: -3px;
 }
-.inflanar-default-cd .fc-scrollgrid-sync-table td {
+.afrifinder-default-cd .fc-scrollgrid-sync-table td {
 	width: 32px;
 	height: 38px;
 	line-height: 32px;
@@ -1744,56 +1707,56 @@ input[type="checkbox"]:checked::before {
 
 
 
-  .inflanar-package-info {
+  .afrifinder-package-info {
 	padding: 20px;
 	background: #3B3B3B;
 }
-  .inflanar-package-info__single p {
+  .afrifinder-package-info__single p {
 	display: flex;
 	justify-content: space-between;
 	color: #fff;
 	font-size: 16px;
 	padding-bottom: ;
   }
-  .inflanar-package-info__single {
+  .afrifinder-package-info__single {
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 	border-bottom: 1px solid #4C4C4C;
   }
-  .inflanar-package-info__single:last-child {
+  .afrifinder-package-info__single:last-child {
 	margin: 0;
 	padding: 0;
 	border: none;
   }
-  .inflanar-package-info__single p {
+  .afrifinder-package-info__single p {
 	margin-bottom: 10px;
   }
 
 /* Booking Info */
-.inflanar-booking-info li {
+.afrifinder-booking-info li {
 	display: flex;
 	align-items: baseline;
 }
-  .inflanar-booking-info__label {
+  .afrifinder-booking-info__label {
 	min-width: 170px;
   }
-  .inflanar-booking-info li .inflanar-booking-info__label,
-  .inflanar-booking-info li .inflanar-booking-info__flabel {
+  .afrifinder-booking-info li .afrifinder-booking-info__label,
+  .afrifinder-booking-info li .afrifinder-booking-info__flabel {
 	color: #647082 !important;
 }
-.inflanar-booking-info {
+.afrifinder-booking-info {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 }
-  .inflanar-booking-info li  .inflanar-booking-info__desc {
+  .afrifinder-booking-info li  .afrifinder-booking-info__desc {
 	font-weight: 500;
 	color:#333333;
   }
 /* End Booking Info */
 
 /* Payment Method */
-.inflanar-payment-method {
+.afrifinder-payment-method {
 	background: #F5F4FF;
 	padding: 25px;
 	display: flex;
@@ -1801,11 +1764,11 @@ input[type="checkbox"]:checked::before {
 	gap: 18px;
 	border-radius: 8px;
 }
-.inflanar-payment-method input,.inflanar-payment-method textarea {
+.afrifinder-payment-method input,.afrifinder-payment-method textarea {
 	color: #647082 !important;
 	padding: 0 15px;
 }
-.inflanar-payment-method__list {
+.afrifinder-payment-method__list {
 	list-style: none;
 	margin: 0;
 	display: flex;
@@ -1816,20 +1779,20 @@ input[type="checkbox"]:checked::before {
 	gap: 22px;
 	flex-wrap: wrap;
 }
-.inflanar-payment-method__list li {
+.afrifinder-payment-method__list li {
 	width: 18%;
 	display: flex;
 	align-items: center;
   }
-  .inflanar-payment-method__list input {
+  .afrifinder-payment-method__list input {
 	display: none;
   }
-  .inflanar-payment-method__list a {
+  .afrifinder-payment-method__list a {
 	width: 100%;
 	cursor: pointer;
 	display: block;
 }
-.inflanar-payment-method__label::before {
+.afrifinder-payment-method__label::before {
 	content: "";
 	position: absolute;
 	top: -11px;
@@ -1851,7 +1814,7 @@ input[type="checkbox"]:checked::before {
 	visibility: hidden;
 	display: none;
 }
-.inflanar-payment-method__label {
+.afrifinder-payment-method__label {
 	text-align: center;
 	border: 1px solid transparent;
 	border-radius: 5px;
@@ -1863,14 +1826,14 @@ input[type="checkbox"]:checked::before {
 	justify-content: center;
 	align-items: center;
 }
-.inflanar-payment-method__label img {
+.afrifinder-payment-method__label img {
 	max-width: 100px;
 }
-.inflanar-payment-method__list input:checked + .inflanar-payment-method__label {
+.afrifinder-payment-method__list input:checked + .afrifinder-payment-method__label {
 	border-color: #FE2C55;
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 }
-.inflanar-payment-method__list input:checked + .inflanar-payment-method__label:before{
+.afrifinder-payment-method__list input:checked + .afrifinder-payment-method__label:before{
 	opacity: 1;
 	visibility: visible;
 }
@@ -1880,74 +1843,74 @@ input[type="checkbox"]:checked::before {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-.inflanar-bdetail__tabnav{
+.afrifinder-bdetail__tabnav{
 	gap:40px;
 }
-.inflanar-sdetail__title {
+.afrifinder-sdetail__title {
 	font-size: 28px;
 }
-.inflanar-payment-method__list li {
+.afrifinder-payment-method__list li {
 	width: 17%;
 }
 }
 @media only screen and  (max-width: 767px) {
-.inflanar-bdetail__tabnav a {
+.afrifinder-bdetail__tabnav a {
 	padding-right: 10px;
 	gap: 10px;
 }
-.inflanar-bdetail__tabnav a span {
+.afrifinder-bdetail__tabnav a span {
 	width: 32px;
 	height: 32px;
 }
-.inflanar-bdetail__tabnav {
+.afrifinder-bdetail__tabnav {
 	gap: 5px;
 }
-.inflanar-sdetail__thumb img {
+.afrifinder-sdetail__thumb img {
 	height: 250px;
 }
-.inflanar-sdetail__content {
+.afrifinder-sdetail__content {
 	padding: 0;
 	margin-top: 20px;
 }
-.inflanar-sdetail__title {
+.afrifinder-sdetail__title {
 	font-size: 22px;
 }
-.inflanar-booking-info li {
+.afrifinder-booking-info li {
 	flex-direction: column;
 }
-.inflanar-opackage__single {
+.afrifinder-opackage__single {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
 }
-.inflanar-opackage__scontent {
+.afrifinder-opackage__scontent {
 	padding-right: 0;
 	flex-direction: column;
 	padding: 0;
 }
-.inflanar-opackage__aprice {
+.afrifinder-opackage__aprice {
 	min-width: 100%;
 	justify-content: center;
 	align-items: center;
 	margin-top: 20px;
 }
-.inflanar-payment-method__list li {
+.afrifinder-payment-method__list li {
 	width: 46%;
 }
-.inflanar-payment-method__list{
+.afrifinder-payment-method__list{
 	padding:20px;
 }
 }
 @media only screen and  (max-width: 400px) {
-.inflanar-bdetail__tabnav {
+.afrifinder-bdetail__tabnav {
 	gap: 10px;
 	flex-wrap: wrap;
 }
-.inflanar-sdetail__thumb img{
+.afrifinder-sdetail__thumb img{
 	height: 220px;
 }
-.inflanar-payment-method__list li {
+.afrifinder-payment-method__list li {
 	width: 100%;
 }
 }
@@ -1962,26 +1925,26 @@ input[type="checkbox"]:checked::before {
 /*======================================
    Iflanar Card
 ========================================*/ 
-.inflanar-hcard {
+.afrifinder-hcard {
 	display: flex;
 	flex-direction: column;
 }
-.inflanar-hcard__img {
+.afrifinder-hcard__img {
 	background: #FFFFFF;
 	box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
 	padding: 15px;
   }
-  .inflanar-hcard__img img {
+  .afrifinder-hcard__img img {
 	width: 100%;
 	height: 215px;
 }
-  .inflanar-hcard__label span {
+  .afrifinder-hcard__label span {
 	font-weight: 400;
 	font-size: 16px;
 	color: #647082;
   }
-  .inflanar-hcard__label b {
+  .afrifinder-hcard__label b {
 	width: 24px;
 	height: 24px;
 	background: #FE2C55;
@@ -1993,57 +1956,57 @@ input[type="checkbox"]:checked::before {
 	font-size: 16px;
 	font-weight: normal;
 }
-  .inflanar-hcard__label {
+  .afrifinder-hcard__label {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin: 0;
 	max-width: 54%;
   }
-  .inflanar-hcard__title {
+  .afrifinder-hcard__title {
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 34px;
   }
-  .inflanar-hcard__line {
+  .afrifinder-hcard__line {
 	position: absolute;
   }
 
-.inflanar-hcard--one{
+.afrifinder-hcard--one{
 	gap:80px;
 }
-.inflanar-hcard--one .inflanar-hcard__line {
+.afrifinder-hcard--one .afrifinder-hcard__line {
 	top: -36px;
 }
 
-.inflanar-hcard.inflanar-hcard--two {
+.afrifinder-hcard.afrifinder-hcard--two {
 	padding-top: 85px;
 	gap: 80px;
 }
-.inflanar-hcard__content__two .inflanar-hcard__line {
+.afrifinder-hcard__content__two .afrifinder-hcard__line {
 	left: -160px;
 	bottom: -48px;
 }
 
 
-.inflanar-hcard--one .inflanar-hcard__line.inflanar-hcard__line--v2 {
+.afrifinder-hcard--one .afrifinder-hcard__line.afrifinder-hcard__line--v2 {
 	left: -165px;
 }
 @media only screen and (min-width: 0px) and (max-width: 991px) {
-.inflanar-hcard__line{
+.afrifinder-hcard__line{
 	display: none;
 }
-.inflanar-hcard__label {
+.afrifinder-hcard__label {
 	max-width: 100%;
 	justify-content: initial;
 	gap: 10px;
 }
 }
 @media only screen  and (max-width: 767px) {
-.inflanar-hcard.inflanar-hcard {
+.afrifinder-hcard.afrifinder-hcard {
 	gap: 30px;
 }
-.inflanar-hcard.inflanar-hcard--two {
+.afrifinder-hcard.afrifinder-hcard--two {
 	padding-top: 30px;
 	display: flex;
 	flex-direction: column-reverse;
@@ -2229,13 +2192,13 @@ input[type="checkbox"]:checked::before {
 	filter: grayscale(0%);
   } 
 
-  .inflanar-brands {
+  .afrifinder-brands {
 	padding: 45px 75px 75px;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
 	border-radius: 12px;
 }
 
-.inflanar-section__head--brands p {
+.afrifinder-section__head--brands p {
 	padding-right: 60px;
 }
 
@@ -2251,7 +2214,7 @@ input[type="checkbox"]:checked::before {
 	flex-direction: column;
 	gap: 50px;
 }
-.brands .inflanar-section__title {
+.brands .afrifinder-section__title {
 	font-size: 34px;
 	margin: 0 !important;
 }
@@ -2269,7 +2232,7 @@ input[type="checkbox"]:checked::before {
 .funfacts__column {
 	width: 100%;
 }
-.inflanar-brands {
+.afrifinder-brands {
 	padding: 25px;
 }
 }
@@ -2280,12 +2243,12 @@ input[type="checkbox"]:checked::before {
 /*======================================
    Faq Area
 ========================================*/ 
-.inflanar-accordion__single {
+.afrifinder-accordion__single {
 	background: #FFFFFF;
 	border: 1px solid #E7E7E7 !important;
 	border-radius: 5px !important;
 }
-.inflanar-accordion .inflanar-accordion__heading {
+.afrifinder-accordion .afrifinder-accordion__heading {
 	font-size: 18px;
 	color: #333;
 	/* font-weight: 500; */
@@ -2295,7 +2258,7 @@ input[type="checkbox"]:checked::before {
 	line-height: 30px;
 	box-shadow: none;
 }
-.accordion-body.inflanar-accordion__body {
+.accordion-body.afrifinder-accordion__body {
 	line-height: 26px;
 	padding: 0;
 	margin: 0 30px;
@@ -2304,7 +2267,7 @@ input[type="checkbox"]:checked::before {
 	border-top: 1px solid #EAEAEA;
 	color: #647082;
 }
-.inflanar-accordion .accordion-button::after {
+.afrifinder-accordion .accordion-button::after {
 	content: "";
 	background-image: url("img/in-faq-arrow.svg");
 	background-repeat: no-repeat;
@@ -2322,13 +2285,13 @@ input[type="checkbox"]:checked::before {
 /*======================================
 	Category Section
 ========================================*/ 
-.inflanar-category {
+.afrifinder-category {
 	display: flex;
 	gap: 30px;
 	flex-wrap: wrap;
 	justify-content: center;
 }
-.inflanar-category__single {
+.afrifinder-category__single {
 	display: flex;
 	gap: 15px;
 	width: 17.6%;
@@ -2339,18 +2302,18 @@ input[type="checkbox"]:checked::before {
 	border-radius: 10px;
 	height: 80px;
 }
-.inflanar-category__single:hover{
+.afrifinder-category__single:hover{
 	transform: translateY(-10px);
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 }
-.inflanar-category__icon img {
+.afrifinder-category__icon img {
 	width:100%;
 	height: 60px;
 }
-.inflanar-category__icon {
+.afrifinder-category__icon {
 	min-width: 60px;
 }
-.inflanar-category__title {
+.afrifinder-category__title {
 	margin: 0;
 	font-size: 20px;
 	font-weight: 400;
@@ -2358,15 +2321,15 @@ input[type="checkbox"]:checked::before {
 	word-break: break-word;
 	
 }
-.inflanar-category__label {
+.afrifinder-category__label {
 	font-size: 16px;
 	color: #647082;
 }
-  .inflanar-category__content {
+  .afrifinder-category__content {
 	display: flex;
 	flex-direction: column;
   }
-  .inflanar-category__single--v2 {
+  .afrifinder-category__single--v2 {
 	flex-direction: column;
 	display: flex;
 	justify-content: center;
@@ -2376,22 +2339,22 @@ input[type="checkbox"]:checked::before {
 	border: 1px solid #EEEEEE;
 	height: initial;
 }
-.inflanar-category__single--v2:hover{
+.afrifinder-category__single--v2:hover{
 	border-color:transparent;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-.inflanar-category__single {
+.afrifinder-category__single {
 	width: 30%;
 }
 }
 
 @media only screen and (max-width: 767px) {
-	.inflanar-category__single {
+	.afrifinder-category__single {
 		width: 46%;
 	}
 }
 @media only screen and (max-width: 400px) {
-	.inflanar-category__single {
+	.afrifinder-category__single {
 		width: 100%;
 	}
 }
@@ -2402,11 +2365,11 @@ input[type="checkbox"]:checked::before {
 /*======================================
 	Why Choose
 ========================================*/ 
-.inflanar-why-choose {
+.afrifinder-why-choose {
 	display: flex;
 	gap: 30px;
   }
-  .inflanar-why-choose__icon {
+  .afrifinder-why-choose__icon {
 	min-width: 80px;
 	min-height: 80px;
 	background: #fff;
@@ -2417,67 +2380,67 @@ input[type="checkbox"]:checked::before {
 	border-radius: 8px;
 	border:1px solid transparent;
   }
-  .inflanar-why-choose:hover  .inflanar-why-choose__icon{
+  .afrifinder-why-choose:hover  .afrifinder-why-choose__icon{
 	border-color: #1777F2;
 	box-shadow: none;
   }
-  .inflanar-why-choose__icon img {
+  .afrifinder-why-choose__icon img {
 	max-width: 42px;
   }
-  .inflanar-why-choose__title {
+  .afrifinder-why-choose__title {
 	font-size: 24px;
 	color: #333;
 	margin: 0 0 10px;
   }
-  .inflanar-why-choose__text {
+  .afrifinder-why-choose__text {
 	color: #647082;
   }
 
-.inflanar-why-choose__img img {
+.afrifinder-why-choose__img img {
 	border-radius: 10px;
 	width:525px;
 	height: 610px;
 }
 
-.inflanar-scard {
+.afrifinder-scard {
 	position: absolute;
 	top: 0;
 }
 
-.inflanar-scard.inflanar-scard--1 {
+.afrifinder-scard.afrifinder-scard--1 {
 	top: initial;
 	bottom: 5%;
 	left: -30%;
 }
-  .inflanar-scard.inflanar-scard--2 {
+  .afrifinder-scard.afrifinder-scard--2 {
 	top: 20%;
 	right: -30%;
 }
 
-.inflanar-scard.inflanar-scard--3 {
+.afrifinder-scard.afrifinder-scard--3 {
 	left: -15%;
 	top: 12%;
 }
-.inflanar-scard.inflanar-scard--4 {
+.afrifinder-scard.afrifinder-scard--4 {
 	left: 30%;
 	top: 0;
 }
-.inflanar-scard.inflanar-scard--5 {
+.afrifinder-scard.afrifinder-scard--5 {
 	right: -15%;
 	bottom: 15%;
 	top: initial;
 }
 
-.inflanar-why-choose__mixed {
+.afrifinder-why-choose__mixed {
 	width: 110%;
 	left: -40px;
 }
-.inflanar-why-choose__mixed img{
+.afrifinder-why-choose__mixed img{
 	width:100%;
 	height: 612px;
 }
 @media only screen and (max-width: 767px) {
-.inflanar-why-choose__title {
+.afrifinder-why-choose__title {
 	font-size: 18px;
 }
 }
@@ -2488,7 +2451,7 @@ input[type="checkbox"]:checked::before {
 /*======================================
    Blog Area
 ========================================*/  
-.inflanar-blog {
+.afrifinder-blog {
 	margin-top: 30px;
 	overflow: hidden;
 	padding: 10px 10px 20px;
@@ -2496,26 +2459,26 @@ input[type="checkbox"]:checked::before {
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 	border-radius: 8px;
 }
-.inflanar-blog:hover {
+.afrifinder-blog:hover {
 	transform: translateY(-10px);
 }
-.inflanar-blog__meta li {
+.afrifinder-blog__meta li {
 	display: inline-block;
 }
-.inflanar-blog__content {
+.afrifinder-blog__content {
 	z-index: 2;
 	padding: 20px 10px 0;
 }
-.inflanar-blog__title {
+.afrifinder-blog__title {
 	font-weight: 600;
 	line-height: 38px;
 	margin: 0;
 	font-size: 24px;
 }
-.inflanar-blog:hover .inflanar-blog__title {
+.afrifinder-blog:hover .afrifinder-blog__title {
 	color: #FE2C55;
 }
-.inflanar-blog__meta {
+.afrifinder-blog__meta {
 	display: flex;
 	padding-bottom: 15px;
 	margin-bottom: 15px;
@@ -2523,16 +2486,16 @@ input[type="checkbox"]:checked::before {
 	gap: 40px;
 	flex-wrap: wrap;
 }
-.inflanar-blog__meta img {
+.afrifinder-blog__meta img {
 	max-width: 15px;
 }
-.inflanar-blog__meta li {
+.afrifinder-blog__meta li {
 	display: flex;
 	align-items: center;
 	gap: 7px;
 }
-.inflanar-blog__meta li a,
-.inflanar-blog__meta li {
+.afrifinder-blog__meta li a,
+.afrifinder-blog__meta li {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
@@ -2541,87 +2504,87 @@ input[type="checkbox"]:checked::before {
 	align-items: center;
 	gap: 5px;
 }
-.inflanar-blog__meta li:last-child{
+.afrifinder-blog__meta li:last-child{
     margin: 0;
 }
-.inflanar-blog__meta li span{
+.afrifinder-blog__meta li span{
 	text-decoration: underline;
 }
-.inflanar-blog__meta li svg {
+.afrifinder-blog__meta li svg {
 	fill: #FE2C55;
 }
-.inflanar-blog__meta li.active{
+.afrifinder-blog__meta li.active{
     color: #FE2C55;
 }
-.inflanar-blog__head img {
+.afrifinder-blog__head img {
 	border-radius: 4px 4px 0 0;
 }
-.inflanar-blog__head {
+.afrifinder-blog__head {
 	overflow: hidden;
 }
 
-.inflanar-overlay.inflanar-blog__overlay {
+.afrifinder-overlay.afrifinder-blog__overlay {
 	background:linear-gradient(0.61deg, #162A4C 0.55%, rgba(217, 217, 217, 0) 113.12%);
 	z-index:1;
 	opacity: 0;
 	visibility: hidden;
   }
-  .inflanar-blog:hover .inflanar-blog__overlay{
+  .afrifinder-blog:hover .afrifinder-blog__overlay{
 	opacity: 1;
 	visibility: visible;
   }
-.inflanar-blog .inflanar-blog__head img{
+.afrifinder-blog .afrifinder-blog__head img{
     transition: all 0.7s ease;
 }
-.inflanar-blog:hover .inflanar-blog__head img{
+.afrifinder-blog:hover .afrifinder-blog__head img{
     transform: scale(1.1);
 }
 .home-blog__button {
 	margin-top: 20px;
 	padding-top: 20px;
 }
-.inflanar-blog__btn {
+.afrifinder-blog__btn {
 	font-weight: 500;
 	color: #111111;
 	font-size: 18px;
 }
-.inflanar-blog__btn:hover{
+.afrifinder-blog__btn:hover{
 	color:#FE2C55;
 }
-.inflanar-blog__btn svg {
+.afrifinder-blog__btn svg {
 	stroke: currentColor;
 }
-.inflanar-blog__head a {
+.afrifinder-blog__head a {
 	width: 100%;
 	display: block;
 }
-.inflanar-blog__title a:hover{
+.afrifinder-blog__title a:hover{
 	text-decoration: underline;
 }
-.inflanar-blog__head a img {
+.afrifinder-blog__head a img {
 	width: 100%;
 	border-radius: 10px 10px 0px 0px;
 	height: 228px;
 }
-.inflanar-blog.inflanar-blog--v2:hover .inflanar-blog__title {
+.afrifinder-blog.afrifinder-blog--v2:hover .afrifinder-blog__title {
 	color: #1778F2;
 }
 
 
 /* Blog Single */
-.inflanar-blog-details {
+.afrifinder-blog-details {
 	border-radius: 10px;
 	background: var(--w, #FFF);
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 	padding: 45px 35px;
 }
-.inflanar-blog-meta__list {
+.afrifinder-blog-meta__list {
 	border: 1px solid #ECEAFF;
 	padding: 10px 30px;
 	display: flex;
 	justify-content: space-between;
   }
-  .inflanar-blog-meta__list li {
+  .afrifinder-blog-meta__list li {
 	display: flex;
 	align-items: center;
 	gap: 10px;
@@ -2629,42 +2592,42 @@ input[type="checkbox"]:checked::before {
 	font-weight: 500;
 	border-radius: 4px;
   }
-  .inflanar-blog-meta__list li,.inflanar-blog-meta__list li a {
+  .afrifinder-blog-meta__list li,.afrifinder-blog-meta__list li a {
 	color: #647082;
 	font-weight: 500;
   }
-  .inflanar-blog-meta__list li a:hover{
+  .afrifinder-blog-meta__list li a:hover{
 	color:#FE2C55;
   }
 
-  .inflanar-blog__img img {
+  .afrifinder-blog__img img {
 	width: 100%;
 	height: 410px;
 	border-radius: 10px 10px 0px 0px;
 }
-  .inflanar-blog-meta__list--single {
+  .afrifinder-blog-meta__list--single {
 		display: flex;
 		align-items: center;
 		gap: 20px;
 	}
-  .inflanar-blog-content {
+  .afrifinder-blog-content {
 	margin-top: 30px;
   }
-  .inflanar-blog-content__title {
+  .afrifinder-blog-content__title {
 	font-size: 36px;
 }
-  .inflanar-blog-content p {
+  .afrifinder-blog-content p {
 	margin-bottom: 30px;
   }
-  .inflanar-blog-content img {
+  .afrifinder-blog-content img {
 	border-radius: 10px 10px 0px 0px;
   }
   
-  .inflanar-blog-details p {
+  .afrifinder-blog-details p {
 	margin-bottom: 30px;
 	color:#333;
   }
-  .inflanar-blog-details p:last-child {
+  .afrifinder-blog-details p:last-child {
 	margin: 0;
   }
 blockquote {
@@ -2713,65 +2676,65 @@ blockquote cite span {
 	font-weight: 500;
 	font-size: 18px;
 }
-  .inflanar-blog-detail__meta {
+  .afrifinder-blog-detail__meta {
 	display: flex;
 	align-items: center;
 	gap: 15px;
 }
-.inflanar-blog-detail__tag {
+.afrifinder-blog-detail__tag {
 	display: flex;
 	align-items: center;
 	list-style: none;
 	gap: 15px;
 }
-.inflanar-blog-detail__bar {
+.afrifinder-blog-detail__bar {
 	display: flex;
 	justify-content: space-between;
 	gap: 20px;
 }
-.inflanar-blog-detail__meta--title {
+.afrifinder-blog-detail__meta--title {
 	font-size: 20px;
 	font-weight: 500;
   }
-  .inflanar-blog-detail__tag a {
+  .afrifinder-blog-detail__tag a {
 	font-weight: 400;
 	font-size: 16px;
 	color: #61657E;
   }
-  .inflanar-blog-detail__tag a:hover {
+  .afrifinder-blog-detail__tag a:hover {
 	color: #FE2C55;
   }
     
-.inflanar-blog-detail__meta--title {
+.afrifinder-blog-detail__meta--title {
 	font-size: 20px;
 	font-weight: 500;
   }
-  .inflanar-blog-detail__tag a {
+  .afrifinder-blog-detail__tag a {
 	font-weight: 400;
 	font-size: 16px;
 	color: #5A5A5A;
 }
-  .inflanar-blog-detail__tag a:hover {
+  .afrifinder-blog-detail__tag a:hover {
 	color: #FE2C55;
   }
 
-  .inflanar-blog-details__body ul {
+  .afrifinder-blog-details__body ul {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	gap: 5px;
   }
-  .inflanar-blog-details__body ul li {
+  .afrifinder-blog-details__body ul li {
 	width: 48%;
 	font-size: 16px;
 	color: #333;
 	font-style: italic;
 }
-.inflanar-blog-details__body h3 {
+.afrifinder-blog-details__body h3 {
 	font-size: 24px;
 	margin-bottom: 20px;
 }
-  .inflanar-blog-detail__bar {
+  .afrifinder-blog-detail__bar {
 	display: flex;
 	justify-content: space-between;
 	gap: 20px;
@@ -2779,31 +2742,31 @@ blockquote cite span {
 	margin-top: 30px;
 	border-top: 1px solid #EAEAEA;
 }
-  .inflanar-blog-detail__title {
+  .afrifinder-blog-detail__title {
 	font-size: 24px;
   }
 
-  .inflanar-blog-authors {
+  .afrifinder-blog-authors {
 	display: flex;
 	align-items: center;
 	gap: 25px;
   }
-  .inflanar-blog-authors__title {
+  .afrifinder-blog-authors__title {
 	font-size: 18px;
 	font-weight: 500;
 	margin: 0;
 	margin-bottom: 5px;
   }
-  .inflanar-blog-authors__head img {
+  .afrifinder-blog-authors__head img {
 	min-width: 120px;
 	min-height: 120px;
 	border-radius: 10px;
 	max-width: 120px;
   }
-  .inflanar-social.inflanar-social__author {
+  .afrifinder-social.afrifinder-social__author {
 	gap: 10px;
   }
-  .inflanar-social.inflanar-social__author a {
+  .afrifinder-social.afrifinder-social__author a {
 	width: 28px;
 	height: 28px;
 	background: #fff;
@@ -2811,17 +2774,17 @@ blockquote cite span {
 	color: #FE2C55 !important;
 	font-size: 14px;
 }
-.inflanar-social.inflanar-social__author a:hover{
+.afrifinder-social.afrifinder-social__author a:hover{
 	background-color:#FE2C55;
 	color:#fff !important;
 }
-  .inflanar-blog-authors {
+  .afrifinder-blog-authors {
 	background: #E9E9E9;
 	padding: 20px;
 	border-radius: 10px;
   }
   
-  .inflanar-blog-authors__social {
+  .afrifinder-blog-authors__social {
 	padding-left: 30px;
 	border-left: 1px solid #CACACA;
 	min-height: 110px;
@@ -2830,171 +2793,171 @@ blockquote cite span {
 	justify-content: center;
 	align-items: center;
 }
-  .inflanar-blog-authors__social span {
+  .afrifinder-blog-authors__social span {
 	margin-top: 15px;
 	display: block;
 	color: #647082;
 }
 /* Blog Comments */
-.inflanar-blog-comments {
+.afrifinder-blog-comments {
 	border-radius: 10px;
 	background: var(--w, #FFF);
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 	padding: 30px 35px;
 }
-.inflanar-blog-comments .inflanar-testimonial.inflanar-testimonial--review {
+.afrifinder-blog-comments .afrifinder-testimonial.afrifinder-testimonial--review {
 	background: #fff;
 	padding: 0;
 }
 
 /* Blog Sidebar */
-.inflanar-blog-sidebar__single {
+.afrifinder-blog-sidebar__single {
 	padding: 20px 30px;
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 	background: #fff;
 	border-radius: 5px;
 }
 
-.inflanar-sidebar__category {
+.afrifinder-sidebar__category {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
   }
-  .inflanar-sidebar__category li a {
+  .afrifinder-sidebar__category li a {
 	display: flex;
 	justify-content: space-between;
 	color: #647082;
 }
-  .inflanar-sidebar__category li a:hover {
+  .afrifinder-sidebar__category li a:hover {
 	color: #FE2C55;
   }
-  .inflanar-sidebar__post {
+  .afrifinder-sidebar__post {
 	display: flex;
 	align-items: center;
 	gap: 15px;
 	margin-bottom: 20px;
 }
-.inflanar-sidebar__img {
+.afrifinder-sidebar__img {
 	max-width: 90px;
 }
-.inflanar-sidebar__img img {
+.afrifinder-sidebar__img img {
 	min-width: 85px;
 	min-height: 85px;
 	max-width: 85px;
 	max-height: 85px;
 }
-  .inflanar-sidebar__img img {
+  .afrifinder-sidebar__img img {
 	border-radius: 4px;
   }
-  .inflanar-sidebar__content--title {
+  .afrifinder-sidebar__content--title {
 	color: #111111;
 	font-size: 18px;
 	margin: 0;
   }
-  .inflanar-sidebar__content--date {
+  .afrifinder-sidebar__content--date {
 	display: flex;
 	align-items: center;
 	color: #647082;
 	font-size: 13px;
 	gap: 8px;
 }
-  .inflanar-sidebar__content {
+  .afrifinder-sidebar__content {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 }
-  .inflanar-sidebar__post:last-child {
+  .afrifinder-sidebar__post:last-child {
 	margin: 0;
   }
-  .inflanar-sidebar__content--title a {
+  .afrifinder-sidebar__content--title a {
 	font-weight: 400;
 }
 
 
-.inflanar-sidebar__tags {
+.afrifinder-sidebar__tags {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 12px;
   }
-  .inflanar-sidebar__tags a {
+  .afrifinder-sidebar__tags a {
 	background: #fff;
 	padding: 5px 10px;
 	border-radius: 4px;
 	color: #647082;
 	font-size: 16px;
   }
-  .inflanar-sidebar__tags a:hover{
+  .afrifinder-sidebar__tags a:hover{
 	background-color: #FE2C55;
 	color:#fff;
   }
-  .inflanar-social.inflanar-social__sidebar li a {
+  .afrifinder-social.afrifinder-social__sidebar li a {
 	width: 42px;
 	height: 42px;
 	font-size: 20px;
 	background-color: #ECEAFF;
 }
-.inflanar-social.inflanar-social__sidebar li svg{
+.afrifinder-social.afrifinder-social__sidebar li svg{
 	max-width:20px;
 }
-.inflanar-social.inflanar-social__sidebar--v2 li a {
+.afrifinder-social.afrifinder-social__sidebar--v2 li a {
 	width: 28px;
 	height: 28px;
 	line-height: 28px;
 }
-.inflanar-social.inflanar-social__sidebar--v2 li a svg {
+.afrifinder-social.afrifinder-social__sidebar--v2 li a svg {
 	width: 12px;
 }
 /* Comments */
 
 @media only screen and (min-width: 0px) and (max-width: 991px) {
-	.inflanar-blog-meta__list {
+	.afrifinder-blog-meta__list {
 		flex-wrap: wrap;
 	}
-	.inflanar-blog-content__title {
+	.afrifinder-blog-content__title {
 		font-size: 24px;
 	}
 	blockquote {
 		font-size: 18px;
 	}
-	.inflanar-blog-detail__bar {
+	.afrifinder-blog-detail__bar {
 		flex-direction: column;
 	}
 	
-	.inflanar-blog-detail__meta {
+	.afrifinder-blog-detail__meta {
 		display: flex;
 		flex-direction: column;
 		justify-content: start;
 		align-items: self-start;
 	}
-	.inflanar-blog-comments__single {
+	.afrifinder-blog-comments__single {
 		flex-direction: column;
 		align-items: start;
 		padding: 20px;
 	}
-	.inflanar-blog-comments__single.inflanar-blog-comments__single--reply{
+	.afrifinder-blog-comments__single.afrifinder-blog-comments__single--reply{
 		margin-left: 10%;
 	}
 }
 @media only screen and (max-width: 767px) {
-.inflanar-blog__title a{
+.afrifinder-blog__title a{
 	font-size: 20px;
 }
-.inflanar-blog-details{
+.afrifinder-blog-details{
 	padding:20px;
 }
-.inflanar-blog-details__body h3 {
+.afrifinder-blog-details__body h3 {
 	margin-top: 20px;
 }
-.inflanar-blog-authors__social{
+.afrifinder-blog-authors__social{
 	padding:0;
 	margin:0;
 	border:none;
 	min-height: initial;
 }
-.inflanar-testimonial--reply{
+.afrifinder-testimonial--reply{
 	padding-left: 40px !important;
 }
-.inflanar-blog-authors{
+.afrifinder-blog-authors{
 	flex-wrap: wrap;
 }
 }
@@ -3006,7 +2969,7 @@ blockquote cite span {
 	Tabs Area
 ========================================*/ 
 
-.inflanar-list-tabs {
+.afrifinder-list-tabs {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -3015,7 +2978,7 @@ blockquote cite span {
 	flex-wrap: wrap;
 	gap: 25px;
 }
-.inflanar-list-tabs a {
+.afrifinder-list-tabs a {
 	background: transparent !important;
 	font-weight: 500;
 	width: 90px;
@@ -3035,13 +2998,13 @@ blockquote cite span {
 	justify-content: center;
 	text-align: center;
 }
-.inflanar-list-tabs a span {
+.afrifinder-list-tabs a span {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-.inflanar-list-tabs a::before{
+.afrifinder-list-tabs a::before{
 	position: absolute;
 	left: 0;
 	top:0;
@@ -3053,52 +3016,52 @@ blockquote cite span {
 	background:transparent;
 	content:"";
 }
-.inflanar-list-tabs a span{
+.afrifinder-list-tabs a span{
 	z-index: 10;
 }
-.inflanar-list-tabs a.active::before,
-.inflanar-list-tabs a:hover::before {
+.afrifinder-list-tabs a.active::before,
+.afrifinder-list-tabs a:hover::before {
 	opacity: 1;
 	visibility: visible;
 	background: linear-gradient(180deg, #885DF1 0%, #6610F2 100%) !important;
 }
-.inflanar-list-tabs a:hover,
-.inflanar-list-tabs a.active{
+.afrifinder-list-tabs a:hover,
+.afrifinder-list-tabs a.active{
 	border-color:transparent !important;
 	color:#fff !important;
 }
-.inflanar-list-tabs a svg{
+.afrifinder-list-tabs a svg{
 	fill:#7634F1;
 }
-.inflanar-list-tabs a.active svg,
-.inflanar-list-tabs a:hover svg{
+.afrifinder-list-tabs a.active svg,
+.afrifinder-list-tabs a:hover svg{
 	fill:#fff;
 }
-.inflanar-tbox {
+.afrifinder-tbox {
 	background: #fff;
 	padding: 45px 60px;
 	border-radius: 10px;
 }
-.inflanar-tbox__img {
+.afrifinder-tbox__img {
 	display: flex;
 	justify-content: end;
 }
-.inflanar-tbox__img img {
+.afrifinder-tbox__img img {
 	box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.12);
 	border-radius: 15px;
 	overflow: hidden;
 }
-.inflanar-tbox__img img {
+.afrifinder-tbox__img img {
 	width: 448px;
 	height: 350px;
 	min-width: 448px;
 }
 @media only screen and (max-width: 991px) {
-.inflanar-tbox__img {
+.afrifinder-tbox__img {
 	justify-content: start;
 	margin-top: 30px;
 }
-.inflanar-why-choose__mixed {
+.afrifinder-why-choose__mixed {
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -3107,30 +3070,30 @@ blockquote cite span {
 }
 }
 @media only screen and (max-width: 767px) {
-	.inflanar-list-tabs a + span {
+	.afrifinder-list-tabs a + span {
 		display: none;
 	}
-	.inflanar-list-tabs {
+	.afrifinder-list-tabs {
 		gap: 20px;
 	}
-	.inflanar-list-tabs a {
+	.afrifinder-list-tabs a {
 		width: 75px;
 		height: 75px;
 	}
-	.inflanar-tbox {
+	.afrifinder-tbox {
 		padding: 30px;
 	}
-	.inflanar-tbox__img img {
+	.afrifinder-tbox__img img {
 		width: 100%;
 		min-width: 100%;
 		height: 260px;
 	}
 }
 @media only screen and (max-width: 375px) {
-	.inflanar-list-tabs {
+	.afrifinder-list-tabs {
 		gap: 5px;
 	}
-	.inflanar-list-tabs a {
+	.afrifinder-list-tabs a {
 		width: 70px;
 		height: 70px;
 	}
@@ -3145,16 +3108,16 @@ blockquote cite span {
 	About Area
 ========================================*/
 
-.inflanar-about__img {
+.afrifinder-about__img {
 	min-width: 565px;
   }
-  .inflanar-about__img img {
+  .afrifinder-about__img img {
 	width: 100%;
 	height: 600px;
 	border-radius: 10px;
 	min-width: 100%;
 }
-.inflanar-ceo {
+.afrifinder-ceo {
 	display: flex;
 	align-items: center;
 	gap: 60px;
@@ -3162,52 +3125,52 @@ blockquote cite span {
 	padding-top: 30px;
 	margin-top: 30px;
   }
-  .inflanar-ceo__author {
+  .afrifinder-ceo__author {
 	display: flex;
 	align-items: center;
 	gap: 35px;
   }
-  .inflanar-ceo__author img {
+  .afrifinder-ceo__author img {
 	width: 70px;
 	height: 70px;
 	border-radius: 100%;
 	min-width: 70px;
 }
-.inflanar-ceo__title {
+.afrifinder-ceo__title {
 	margin: 0;
 	display: flex;
 	flex-direction: column;
 	font-size: 20px;
 	font-weight: 500;
 }
-  .inflanar-ceo__title span {
+  .afrifinder-ceo__title span {
 	font-size: 16px;
 	color: #647082;
 	font-weight: 400;
   }
-  .inflanar-ceo__sign {
+  .afrifinder-ceo__sign {
 	width: 120px;
 	min-width: 120px;
 	height: 55px;
 }
 @media only screen and (min-width: 0px) and (max-width: 991px) {
-	.inflanar-about__row {
+	.afrifinder-about__row {
 		flex-direction: column;
 	}
-	.inflanar-row-gap{
+	.afrifinder-row-gap{
 		gap:30px;
 	}
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-.inflanar-ceo__author {
+.afrifinder-ceo__author {
 	gap: 20px;
 }
-.inflanar-ceo {
+.afrifinder-ceo {
 	gap: 20px;
 }
 }
 @media only screen and (max-width: 400px) {
-	.inflanar-ceo {
+	.afrifinder-ceo {
 		flex-direction: column;
 		align-items: start;
 	}
@@ -3220,20 +3183,20 @@ blockquote cite span {
 /*======================================
    Pricing Area
 ========================================*/  
-.inflanar-psingle {
+.afrifinder-psingle {
 	background: #fff;
 	overflow: hidden;
 	border: 1px solid #FE2C55;
 	border-radius: 5px;
 	border: 1px solid #ECEAFF;
 }
-.inflanar-psingle__title {
+.afrifinder-psingle__title {
 	font-size: 24px;
 	font-weight: 500;
 	margin-left: 25px;
 	color: #fff;
 }
-.inflanar-psingle__list {
+.afrifinder-psingle__list {
 	padding: 40px 0;
 	display: flex;
 	flex-direction: column;
@@ -3242,18 +3205,18 @@ blockquote cite span {
 	justify-content: center;
 	align-items: center;
 }
-.inflanar-psingle__list li {
+.afrifinder-psingle__list li {
 	display: flex;
 	align-items: center;
 	gap: 8px;
 }
-.inflanar-psingle__list li:last-child {
+.afrifinder-psingle__list li:last-child {
 	margin: 0;
 }
-.inflanar-psingle__button {
+.afrifinder-psingle__button {
 	padding: 0 45px 25px;
 }
-.inflanar-psingle__head {
+.afrifinder-psingle__head {
 	padding: 18px 25px;
 	background-image: url('img/in-pricing-shape.svg');
 	background-size: cover;
@@ -3264,7 +3227,7 @@ blockquote cite span {
 	justify-content: center;
 	align-items: center;
 }
-.inflanar-psingle__amount {
+.afrifinder-psingle__amount {
 	color: #333333;
 	margin: 0;
 	line-height: initial;
@@ -3289,25 +3252,25 @@ blockquote cite span {
 .swiper-pagination.style-4 span {
 	margin: 0 !important;
 }
-.inflanar-psingle .inflanar-btn {
+.afrifinder-psingle .afrifinder-btn {
 	width: 100%;
 	height: 50px;
 }
 
-.inflanar-service__list {
+.afrifinder-service__list {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 	color: #647082;
   }
-  .inflanar-service__list li {
+  .afrifinder-service__list li {
 	display: flex;
 	align-items: center;
   }
-  .inflanar-service__list--day {
+  .afrifinder-service__list--day {
 	min-width: 180px;
   }
-  .inflanar-service__list li:before {
+  .afrifinder-service__list li:before {
 	content: "";
 	width: 12px;
 	height: 12px;
@@ -3316,18 +3279,18 @@ blockquote cite span {
 	margin-right: 20px;
   }
 @media only screen and (max-width: 991px) {
-.inflanar-psingle__head {
+.afrifinder-psingle__head {
 	padding: 15px;
   }
-  .inflanar-psingle__amount {
+  .afrifinder-psingle__amount {
 	line-height: inherit;
 	padding: 15px;
 	font-size: 32px;
   }
-  .inflanar-psingle__list {
+  .afrifinder-psingle__list {
 	padding: 20px;
 }
-.inflanar-psingle__button {
+.afrifinder-psingle__button {
 	padding: 0 20px 20px;
 }
 }
@@ -3339,7 +3302,7 @@ blockquote cite span {
 /*======================================
    breadcrumbs CSS
 ========================================*/  
-.inflanar-breadcrumb {
+.afrifinder-breadcrumb {
 	height: 350px;
 	background-size: cover;
 	background-position: center;
@@ -3350,47 +3313,47 @@ blockquote cite span {
 	background-image: url('img/in-bread-bg.jpg');
 	overflow: hidden;
 }
-.inflanar-breadcrumb__inner {
+.afrifinder-breadcrumb__inner {
 	text-align: center;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	gap: 50px;
 }
-.inflanar-breadcrumb__title {
+.afrifinder-breadcrumb__title {
 	font-size: 42px;
 }
-.inflanar-breadcrumb__menu {
+.afrifinder-breadcrumb__menu {
 	display: flex;
 	gap: 10px;
 }
-.inflanar-breadcrumb__menu li {
+.afrifinder-breadcrumb__menu li {
 	color: #333;
 	font-size: 16px;
 }
-.inflanar-breadcrumb__content {
+.afrifinder-breadcrumb__content {
 	text-align: left;
 }
-.inflanar-breadcrumb__menu li::after {
+.afrifinder-breadcrumb__menu li::after {
   content: "/";
   color: #333;
 }
-.inflanar-breadcrumb__menu li:after {
+.afrifinder-breadcrumb__menu li:after {
   padding-left: 10px;
 }
-.inflanar-breadcrumb__menu li:last-child:after {
+.afrifinder-breadcrumb__menu li:last-child:after {
   display: none;
 }
-.inflanar-breadcrumb__menu li.active a{
+.afrifinder-breadcrumb__menu li.active a{
 	color: #FE2C55;
 }
-.inflanar-breadcrumb__menu li:hover a {
+.afrifinder-breadcrumb__menu li:hover a {
 	opacity: 0.8;
 }
-.inflanar-breadcrumb__menu li:last-child{
+.afrifinder-breadcrumb__menu li:last-child{
 	margin: 0;
 }
-.inflanar-breadcrumb__group {
+.afrifinder-breadcrumb__group {
 	position: absolute;
 	top: 50px;
 	right: -130px;
@@ -3398,37 +3361,37 @@ blockquote cite span {
 	height: 100%;
 	min-width: 680px;
 }
-.inflanar-breadcrumb__thumb {
+.afrifinder-breadcrumb__thumb {
 	z-index: 333;
 }
-.inflanar-breadcrumb__thumb img {
+.afrifinder-breadcrumb__thumb img {
 	width: 512px;
 	height: 330px;
 }
 @media only screen and (min-width: 0px) and (max-width: 991px) {
-	.inflanar-breadcrumb {
+	.afrifinder-breadcrumb {
 		height: 300px;
 	}
-	.inflanar-breadcrumb__img {
+	.afrifinder-breadcrumb__img {
 		max-width: 400px;
 	}
-	.inflanar-breadcrumb__thumb img {
+	.afrifinder-breadcrumb__thumb img {
 		width: 100%;
 		height: 215px;
 	}
-	.inflanar-breadcrumb__group {
+	.afrifinder-breadcrumb__group {
 		min-width: 400px;
 		right: -50px;
 	}
 }
 @media only screen and (max-width: 767px) {
-	.inflanar-breadcrumb {
+	.afrifinder-breadcrumb {
 		height: 200px;
 	}
-	.inflanar-breadcrumb__img {
+	.afrifinder-breadcrumb__img {
 		display: none;
 	}
-	.inflanar-breadcrumb__title {
+	.afrifinder-breadcrumb__title {
 		font-size: 30px;
 	}
 }
@@ -3440,16 +3403,16 @@ blockquote cite span {
    Contact
 ========================================*/  
 
-.inflanar-contact__box {
+.afrifinder-contact__box {
 	padding: 55px 60px;
 	border-radius: 10px;
 	overflow: hidden;
   }
-  .inflanar-contact__htext {
+  .afrifinder-contact__htext {
 	font-size: 16px;
 	color: #333;
 }
-  .inflanar-contact__icon {
+  .afrifinder-contact__icon {
 	width: 60px;
 	height: 60px;
 	display: flex;
@@ -3461,52 +3424,52 @@ blockquote cite span {
 	color: #FE2C55;
   }
   
-  .inflanar-contact__title {
+  .afrifinder-contact__title {
 	font-weight: 500;
 	font-size: 18px;
 	display: flex;
 	flex-direction: column;
 }
-  .inflanar-contact__content {
+  .afrifinder-contact__content {
 	margin-top: 20px;
   }
-  .inflanar-contact__title, .inflanar-contact__title a {
+  .afrifinder-contact__title, .afrifinder-contact__title a {
 	color: #333;
 	font-weight: 500;
 }
-.inflanar-contact-form__title{
+.afrifinder-contact-form__title{
 	font-size: 36px;
 }
 
-.inflanar-gmap iframe {
+.afrifinder-gmap iframe {
 	width: 100%;
 	height: 670px;
   }
-  .inflanar-gmap {
+  .afrifinder-gmap {
 	margin-bottom: -170px;
   }
   @media only screen and (max-width: 768px) {
 	
-	.inflanar-gmap {
+	.afrifinder-gmap {
 		margin: 0;
 	}
-	.inflanar-gmap iframe {
+	.afrifinder-gmap iframe {
 		width: 100%;
 		height: 350px;
 	}
 }
 
   @media only screen and (max-width: 767px) {
-	.inflanar-contact__box, .inflanar-comments-form {
+	.afrifinder-contact__box, .afrifinder-comments-form {
 		padding: 30px !important;
 	}
-	.inflanar-contact-form__title {
+	.afrifinder-contact-form__title {
 		font-size: 24px;
 	}
-	.inflanar-contact__title {
+	.afrifinder-contact__title {
 		font-size: 16px;
 	}
-	.inflanar-gmap iframe{
+	.afrifinder-gmap iframe{
 		height: 280px;
 	}
   }
@@ -3518,12 +3481,12 @@ blockquote cite span {
 /*======================================
    Account Pages
 ========================================*/
-.inflanar-wc__form-login--label {
+.afrifinder-wc__form-login--label {
 	text-align: center;
 	position: relative;
 	margin-top: 20px;
 }
-  .inflanar-wc__form-login--label:before {
+  .afrifinder-wc__form-login--label:before {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -3532,7 +3495,7 @@ blockquote cite span {
 	height: 1px;
 	border-bottom: 1px solid #EEEFF2;
   }
-  .inflanar-wc__form-login--label span {
+  .afrifinder-wc__form-login--label span {
 	background: #fff;
 	color: #718096;
 	z-index: 3333;
@@ -3540,12 +3503,12 @@ blockquote cite span {
 	padding: 0 25px;
 	font-size: 16px;
 }
-.inflanar-wc__form-login--label {
+.afrifinder-wc__form-login--label {
 	text-align: center;
 	position: relative;
 	margin-top: 20px;
 }
-  .inflanar-wc__form-login--label:before {
+  .afrifinder-wc__form-login--label:before {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -3554,7 +3517,7 @@ blockquote cite span {
 	height: 1px;
 	border-bottom: 1px solid #EEEFF2;
   }
-  .inflanar-wc__form-login--label span {
+  .afrifinder-wc__form-login--label span {
 	background: #fff;
 	color: #718096;
 	z-index: 3333;
@@ -3562,11 +3525,11 @@ blockquote cite span {
 	padding: 0 25px;
 	font-size: 16px;
 }
-.inflanar-signin__logins {
+.afrifinder-signin__logins {
 	padding-right: 40px;
 }
 
-.inflanar-signin__welcome {
+.afrifinder-signin__welcome {
 	padding: 80px 70px;
 	display: flex;
 	justify-content: center;
@@ -3574,38 +3537,38 @@ blockquote cite span {
 	height: 100%;
 	border-radius: 12px;
   }
-.inflanar-signin__welcome img {
+.afrifinder-signin__welcome img {
 	max-width: 428px;
 }
 
-.inflanar-signin__welcome.inflanar-signin__welcome--password img {
+.afrifinder-signin__welcome.afrifinder-signin__welcome--password img {
 	max-width: 275px;
 }
-.inflanar-signin__welcome.inflanar-signin__welcome--password {
+.afrifinder-signin__welcome.afrifinder-signin__welcome--password {
 	padding: 40px;
 }
 
-.inflanar-signin__header {
+.afrifinder-signin__header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
   }
 
-  .inflanar-signin__title {
+  .afrifinder-signin__title {
 	font-size: 36px;
 	margin-bottom: 8px;
   }
-  .inflanar-signin__tag {
+  .afrifinder-signin__tag {
 	color: #647082;
   }
 
 
-  .inflanar-signin__options {
+  .afrifinder-signin__options {
 	display: flex;
 	flex-direction: row;
 	gap: 12px;
   }
-  .inflanar-signin__options a {
+  .afrifinder-signin__options a {
 	border: 1px solid #1778F2  !important;
 	font-size: 18px;
 	font-weight: 500;
@@ -3615,38 +3578,38 @@ blockquote cite span {
 	overflow: hidden;
 	background: transparent !important;
 }
-.inflanar-signin__options .list-group-item.active,
-.inflanar-signin__options .list-group-item:hover {
+.afrifinder-signin__options .list-group-item.active,
+.afrifinder-signin__options .list-group-item:hover {
 	background: #1778F2 !important ;
 	border-color:transparent !important;
 	color:#fff !important;
   }
-  .inflanar-signin__check-inline {
+  .afrifinder-signin__check-inline {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
   }
-  .inflanar-signin__check-inline label {
+  .afrifinder-signin__check-inline label {
 	margin: 0;
 	cursor: pointer;
 }
-  .inflanar-signin__check-inline label a {
+  .afrifinder-signin__check-inline label a {
 	color: #FE2C55;
 }
-.inflanar-signin__check-inline label a:hover{
+.afrifinder-signin__check-inline label a:hover{
 	color:#333;
 }
-  .inflanar-signin__forgot {
+  .afrifinder-signin__forgot {
 	color: #FE2C55;
   }
-  .inflanar-signin__forgot:hover{
+  .afrifinder-signin__forgot:hover{
 	color:#333;
   }
-  .inflanar-signin__checkbox {
+  .afrifinder-signin__checkbox {
 	color: #647082;
   }
 
-  .inflanar-signin__form-login--label {
+  .afrifinder-signin__form-login--label {
 	text-align: center;
 	position: relative;
 	margin-top: 50px;
@@ -3654,7 +3617,7 @@ blockquote cite span {
 	max-width: 230px;
 	margin-bottom: 50px;
 }
-  .inflanar-signin__form-login--label:before {
+  .afrifinder-signin__form-login--label:before {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -3663,7 +3626,7 @@ blockquote cite span {
 	height: 1px;
 	border-bottom: 1px solid #EEEFF2;
   }
-  .inflanar-signin__form-login--label span {
+  .afrifinder-signin__form-login--label span {
 	background: #fff;
 	color: #333;
 	z-index: 3333;
@@ -3671,22 +3634,22 @@ blockquote cite span {
 	padding: 0 10px;
 	font-size: 16px;
 }
-.inflanar-signin__body .inflanar-btn {
+.afrifinder-signin__body .afrifinder-btn {
 	width: 100%;
   }
-  .inflanar-signin__bottom {
+  .afrifinder-signin__bottom {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
   }
-  .inflanar-signin__button--group {
+  .afrifinder-signin__button--group {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
   }
-  .inflanar-btn.inflanar-btn__other {
+  .afrifinder-btn.afrifinder-btn__other {
 	border-radius: 5px;
 	background: #FFF;
 	box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.10);
@@ -3694,38 +3657,38 @@ blockquote cite span {
 	font-weight: 400;
 	height: 58px;
   }
-.inflanar-signin__body {
+.afrifinder-signin__body {
 	border-radius: 10px;
 	background: var(--w, #FFF);
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 	padding: 80px;
 }
-.inflanar-signin__text a {
+.afrifinder-signin__text a {
 	color: #333;
 }
-.inflanar-signin__text a:hover{
+.afrifinder-signin__text a:hover{
 	color:#FE2C55;
 }
-.inflanar-signin__checkbox--group {
+.afrifinder-signin__checkbox--group {
 	display: flex;
 	align-items: center;
 	gap: 8px;
 }
 @media only screen and (max-width: 991px) {
-	.inflanar-signin__logins{
+	.afrifinder-signin__logins{
 		padding:0;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.inflanar-signin__body {
+	.afrifinder-signin__body {
 		padding: 50px;
 	}
 }
 @media only screen and (max-width: 767px) {
-	.inflanar-signin__body{
+	.afrifinder-signin__body{
 		padding:35px;
 	}
-	.inflanar-signin__header {
+	.afrifinder-signin__header {
 		flex-direction: column;
 		align-items: start;
 		gap: 20px;
@@ -3746,24 +3709,24 @@ blockquote cite span {
 	padding: 35px 30px;
 }
 
-.inflanar-influencer.inflanar-influencer__sidebar {
+.afrifinder-influencer.afrifinder-influencer__sidebar {
 	background: #FFFFFF;
 	padding: 20px;
 	z-index: 333;
   }
-  .inflanar-influencer.inflanar-influencer__sidebar .inflanar-influencer__head {
+  .afrifinder-influencer.afrifinder-influencer__sidebar .afrifinder-influencer__head {
 	padding: ;
 	background: transparent;
 	padding: ;
 	padding: 0;
   }
-  .inflanar-influencer.inflanar-influencer__sidebar .inflanar-influencer__head img {
+  .afrifinder-influencer.afrifinder-influencer__sidebar .afrifinder-influencer__head img {
 	width: 100%;
 	min-width: 100%;
 	height: 100%;
 	box-shadow: none;
   }
-  .inflanar-influencer.inflanar-influencer__sidebar .inflanar-influencer__follower {
+  .afrifinder-influencer.afrifinder-influencer__sidebar .afrifinder-influencer__follower {
 	padding: 0;
 	border: none;
 }
@@ -3915,7 +3878,7 @@ blockquote cite span {
   .influencers-pinfo__social {
 	max-width: 175px;
   }
-  .influencers-pinfo__sbutton .inflanar-btn {
+  .influencers-pinfo__sbutton .afrifinder-btn {
 	background: #fff;
 	color: #333;
 	height: 40px;
@@ -3923,7 +3886,7 @@ blockquote cite span {
 	font-size: 18px;
 	padding: 0;
 }
-  .influencers-pinfo__sbutton .inflanar-btn.inflanar-btn__active,.influencers-pinfo__sbutton .inflanar-btn.inflanar-btn:hover {
+  .influencers-pinfo__sbutton .afrifinder-btn.afrifinder-btn__active,.influencers-pinfo__sbutton .afrifinder-btn.afrifinder-btn:hover {
 	background: #1778F2;
 	border-color: transparent;
 	color: #fff;
@@ -3966,31 +3929,31 @@ blockquote cite span {
   }
 
 /* Joining Form */
-.inflanar-joining__inside {
+.afrifinder-joining__inside {
 	border-radius: 10px;
 	background: var(--w, #FFF);
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 	padding: 75px;
 }
-.inflanar-author-infos {
+.afrifinder-author-infos {
 	display: flex;
 	justify-content: end;
 	align-items: end;
 }
-.inflanar-signin__tsmall {
+.afrifinder-signin__tsmall {
 	color: #333;
 	font-weight: 500;
 	font-size: 18px;
 	margin: 0 0 10px;
 }
-.inflanar-signin__options--join{
+.afrifinder-signin__options--join{
 	justify-content: center;
 }
 
-.inflanar-author-profile__edit input {
+.afrifinder-author-profile__edit input {
 	display: none;
 }
-.inflanar-author-profile__upload {
+.afrifinder-author-profile__upload {
 	text-align: center;
 	color: #fff;
 	right: 8px;
@@ -4005,7 +3968,7 @@ blockquote cite span {
 	border-radius: 5px;
 	font-weight: 500;
 }
-.inflanar-author-profile__note b {
+.afrifinder-author-profile__note b {
 	font-weight: 500;
 	color: #333;
 }
@@ -4036,14 +3999,14 @@ blockquote cite span {
     color: #333 !important;
 }
 
-.inflanar-form-input .form-group__input--select input {
+.afrifinder-form-input .form-group__input--select input {
 	padding-left: 145px;
 }
 .form-group__input--select img {
 	margin-right: 10px;
 }
 /* Profile Update */
-.inflanar-author-profile {
+.afrifinder-author-profile {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -4051,17 +4014,17 @@ blockquote cite span {
 	text-align: center;
 	gap: 40px;
   }
-  .inflanar-author-profile__title {
+  .afrifinder-author-profile__title {
 	font-size: 18px;
 	font-weight: 500;
 	margin: 0;
   }
-  .inflanar-author-profile__content {
+  .afrifinder-author-profile__content {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
   }
-  .inflanar-author-profile__thumb {
+  .afrifinder-author-profile__thumb {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -4069,26 +4032,26 @@ blockquote cite span {
 	gap: 40px;
 	text-align: center;
   }
-  .inflanar-author-profile__thumb > img {
+  .afrifinder-author-profile__thumb > img {
 	min-width: 160px;
 	height: 160px;
 	min-width: ;
 	max-width: 160px;
   }
 @media only screen and (min-width: 0px) and (max-width: 991px) {
-	.inflanar-author-infos {
+	.afrifinder-author-infos {
 		justify-content: center;
 		align-items: center;
 	}
-	.inflanar-author-profile__thumb,.inflanar-author-profile{
+	.afrifinder-author-profile__thumb,.afrifinder-author-profile{
 		gap: 15px;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.inflanar-joining__inside {
+	.afrifinder-joining__inside {
 		padding: 30px;
 	}
-	.inflanar-author-profile__upload {
+	.afrifinder-author-profile__upload {
 		padding: 0 30px;
 	}
 	.influencers-pinfo__title {
@@ -4102,10 +4065,10 @@ blockquote cite span {
 	}
 }
 @media only screen and (max-width: 767px) {
-.inflanar-joining__inside {
+.afrifinder-joining__inside {
 	padding: 25px;
 }
-.inflanar-author-infos {
+.afrifinder-author-infos {
 	justify-content: center;
 	align-items: center;
 	margin-top: 30px;
@@ -4133,37 +4096,37 @@ blockquote cite span {
 	Dashboard Pages
 ========================================*/
 
-.inflanar-psidebar{
+.afrifinder-psidebar{
 	padding: 35px 25px;
 	border-radius: 10px;
 	background: #F3F3F3;
   }
 
-  .inflanar-psidebar__author {
+  .afrifinder-psidebar__author {
 	display: flex;
 	align-items: center;
 	gap: 20px;
 	margin-bottom: 35px;
 }
-  .inflanar-psidebar__atitle {
+  .afrifinder-psidebar__atitle {
 	display: flex;
 	flex-direction: column;
 	font-size: 18px;
 	color: #333;
 	margin: 0;
   }
-  .inflanar-psidebar__acontent h4 span {
+  .afrifinder-psidebar__acontent h4 span {
 	font-weight: 400;
 	color: #647082;
 	font-size: 16px;
   }
 
-  .inflanar-psidebar__aedit {
+  .afrifinder-psidebar__aedit {
 	position: absolute;
 	bottom: 0;
 	right: 0;
   }
-  .inflanar-psidebar__aedit label {
+  .afrifinder-psidebar__aedit label {
 	margin: 0;
 	background: #27AE60;
 	width: 25px;
@@ -4176,34 +4139,34 @@ blockquote cite span {
 	font-size: 12px;
 	cursor: powderblue;
 }
-.inflanar-psidebar__athumb img {
+.afrifinder-psidebar__athumb img {
 	width: 70px;
 	height: 70px;
 	border-radius: 100%;
 	min-width: 70px;
 	max-width: 70px;
 }
-.inflanar-psidebar__atitle span {
+.afrifinder-psidebar__atitle span {
 	font-weight: 400;
 	font-size: 16px;
 	color:#647082;
 }
 
 /* Sidebar List */
-.inflanar-psidebar__list {
+.afrifinder-psidebar__list {
 	gap: 5px;
 }
-.inflanar-psidebar__list svg {
+.afrifinder-psidebar__list svg {
 	fill: #647082;
   }
-  .inflanar-psidebar__title {
+  .afrifinder-psidebar__title {
 	color: #647082;
   }
-  .inflanar-psidebar__icon {
+  .afrifinder-psidebar__icon {
 	min-width: 40px;
 	display: block;
   }
-  .inflanar-psidebar__list .list-group-item {
+  .afrifinder-psidebar__list .list-group-item {
 	display: flex;
 	align-items: center;
 	background: transparent;
@@ -4213,21 +4176,21 @@ blockquote cite span {
 	font-size: 18px;
 	cursor: pointer;
 }
-  .inflanar-psidebar__list .list-group-item.active,
-  .inflanar-psidebar__list .list-group-item:hover {
+  .afrifinder-psidebar__list .list-group-item.active,
+  .afrifinder-psidebar__list .list-group-item:hover {
 	background: #1778F2;
   }
-  .inflanar-psidebar__list .list-group-item.active svg,
-  .inflanar-psidebar__list .list-group-item:hover svg {
+  .afrifinder-psidebar__list .list-group-item.active svg,
+  .afrifinder-psidebar__list .list-group-item:hover svg {
 	fill: #fff;
   }
-  .inflanar-psidebar__list .list-group-item.active .inflanar-psidebar__title, 
-  .inflanar-psidebar__list .list-group-item:hover .inflanar-psidebar__title {
+  .afrifinder-psidebar__list .list-group-item.active .afrifinder-psidebar__title, 
+  .afrifinder-psidebar__list .list-group-item:hover .afrifinder-psidebar__title {
 	color: #fff;
   }
   
   
-.inflanar-pdbox {
+.afrifinder-pdbox {
 	padding: 35px 40px;
 	background: #F8E4DF;
 	display: flex;
@@ -4235,7 +4198,7 @@ blockquote cite span {
 	gap: 20px;
 	border-radius: 10px;
   }
-  .inflanar-pdbox__icon {
+  .afrifinder-pdbox__icon {
 	width: 70px;
 	height: 70px;
 	background: #fff;
@@ -4244,11 +4207,11 @@ blockquote cite span {
 	justify-content: center;
 	border-radius: 4px;
   }
-  .inflanar-pdbox__content {
+  .afrifinder-pdbox__content {
 	display: flex;
 	flex-direction: column;
   }
-  .inflanar-pdbox__title {
+  .afrifinder-pdbox__title {
 	margin: 0;
 	display: flex;
 	flex-direction: column;
@@ -4257,23 +4220,23 @@ blockquote cite span {
 	line-height: initial;
 	gap: 5px;
   }
-  .inflanar-pdbox__title span {
+  .afrifinder-pdbox__title span {
 	color: #647082;
 	font-size: 16px;
 	font-weight: 400;
   }
-  .inflanar-pdbox.inflanar-pdbox__2{
+  .afrifinder-pdbox.afrifinder-pdbox__2{
 	background:#EFDBF2;
   }
-  .inflanar-pdbox.inflanar-pdbox__3{
+  .afrifinder-pdbox.afrifinder-pdbox__3{
 	background:#E2EFBB;
   }
 
-  .inflanar-profile-info__list  li {
+  .afrifinder-profile-info__list  li {
 	display: flex;
 	align-items: center;
   }
-  .inflanar-profile-info__title {
+  .afrifinder-profile-info__title {
 	margin: 0;
 	width: 130px;
 	font-size: 16px;
@@ -4281,34 +4244,34 @@ blockquote cite span {
 	font-weight: 400;
 	min-width: 130px;
 }
-  .inflanar-profile-info__heading {
+  .afrifinder-profile-info__heading {
 	font-size: 24px;
   }
-  .inflanar-profile-info {
+  .afrifinder-profile-info {
 	padding: 45px 50px;
 	border-radius: 10px;
 	background: #F8F8F8;
 }
-.inflanar-profile-info__text {
+.afrifinder-profile-info__text {
 	color: #333;
 }
-.inflanar-profile-info__list {
+.afrifinder-profile-info__list {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
 }
 
-.inflanar-table__head {
+.afrifinder-table__head {
 	background: #FFE6EB;
 }
 /* Table */
-.inflanar-table__main .inflanar-table__head tr th, 
-.inflanar-table__main .inflanar-table__body tr td {
+.afrifinder-table__main .afrifinder-table__head tr th, 
+.afrifinder-table__main .afrifinder-table__body tr td {
 	vertical-align: middle;
 	text-align: left;
 	padding: 20px;
 }
-.inflanar-table__action {
+.afrifinder-table__action {
 	width: 34px;
 	height: 34px;
 	background: #D1E4FC;
@@ -4320,42 +4283,42 @@ blockquote cite span {
 	justify-content: center;
 }
 
-.inflanar-table__action.inflanar-table__action--remove{
+.afrifinder-table__action.afrifinder-table__action--remove{
 	background-color: #FFD5DD;
 }
-.inflanar-table__status__group {
+.afrifinder-table__status__group {
 	display: flex;
 	align-items: center;
 	gap: 10px;
 }
-.inflanar-table__label {
+.afrifinder-table__label {
 	padding: 5px 15px;
 	background: #DBF6EF;
 	color: #00BF8C;
 	border-radius: 4px;
 	display: inline-flex;
 }
-  .inflanar-table__desc {
+  .afrifinder-table__desc {
 	color: #647082;
 }
-.inflanar-table__main .inflanar-table__head tr th::before,
-.inflanar-table__main .inflanar-table__head tr th::after {
+.afrifinder-table__main .afrifinder-table__head tr th::before,
+.afrifinder-table__main .afrifinder-table__head tr th::after {
 	display: none !important;
 }
 
-.inflanar-table__label.inflanar-table__label--cancel {
+.afrifinder-table__label.afrifinder-table__label--cancel {
 	background: #F7D6D1;
 	color: #FE3A60;
   }
-  .inflanar-table__label.inflanar-table__label--active {
+  .afrifinder-table__label.afrifinder-table__label--active {
 	background: #DCEBFD;
 	color: #1778F2;
   }
-  .inflanar-table__main .inflanar-table__body tr:nth-child(2n) {
+  .afrifinder-table__main .afrifinder-table__body tr:nth-child(2n) {
 	background-color: #F5F5F5;
 }
 
-.inflanar-table__unread {
+.afrifinder-table__unread {
 	background: #E5D9FC;
 	width: 34px;
 	height: 34px;
@@ -4380,7 +4343,7 @@ blockquote cite span {
 	align-items: end;
 	justify-content: end;
 }
-.inflanar-pagination {
+.afrifinder-pagination {
 	justify-content: end;
 }
 .dataTables_paginate .pagination a {
@@ -4440,7 +4403,7 @@ blockquote cite span {
 	height: 50px;
 	margin: 0 !important;
 }
-.dataTables_filter .inflanar-data-table-label {
+.dataTables_filter .afrifinder-data-table-label {
 	position: absolute;
 	right: 5px;
 	top: 5px;
@@ -4467,103 +4430,103 @@ div.dataTables_wrapper div.dataTables_info  {
 	color: #647082;
 }
 
-.inflanar-table__label.inflanar-table__label--pending {
+.afrifinder-table__label.afrifinder-table__label--pending {
 	background: #FFEDE4;
 	color: #FF772C;
 }
 /* Table V2 */
-.inflanar-table__main.inflanar-table__main-v2 .inflanar-table__body tr:nth-child(2n){
+.afrifinder-table__main.afrifinder-table__main-v2 .afrifinder-table__body tr:nth-child(2n){
 	background-color: transparent;
 }
-.inflanar-table__main.inflanar-table__main-v2 .inflanar-table__head tr th, 
-.inflanar-table__main.inflanar-table__main-v2 .inflanar-table__body tr td {
+.afrifinder-table__main.afrifinder-table__main-v2 .afrifinder-table__head tr th, 
+.afrifinder-table__main.afrifinder-table__main-v2 .afrifinder-table__body tr td {
 	vertical-align: baseline;
 	padding: 20px;
 }
-.inflanar-table__main.inflanar-table__main-v2 .inflanar-table__body tr td{
+.afrifinder-table__main.afrifinder-table__main-v2 .afrifinder-table__body tr td{
 	border-bottom: 1px solid #EAEAEA;
 }
-.inflanar-table__main.inflanar-table__main-v2 .inflanar-table__body tr:last-child td{
+.afrifinder-table__main.afrifinder-table__main-v2 .afrifinder-table__body tr:last-child td{
 	border:none;
 }
-.inflanar-table__desc a{
+.afrifinder-table__desc a{
 	color:#FE2C55;
 }
 /* Table V3 */
-.inflanar-table__main-service .inflanar-table__column-1 {
+.afrifinder-table__main-service .afrifinder-table__column-1 {
 	max-width: 40%;
 	min-width: 40%;
 }
-.inflanar-table__sthumb {
+.afrifinder-table__sthumb {
 	display: flex;
 	align-items: center;
 	gap: 20px;
 }
-.inflanar-table__stitle {
+.afrifinder-table__stitle {
 	font-size: 18px;
 	font-weight: 400;
 }
-.inflanar-table__stitle a {
+.afrifinder-table__stitle a {
 	font-weight: 400;
 }
-.inflanar-table__stitle a:hover{
+.afrifinder-table__stitle a:hover{
 	color:#FE2C55;
 }
-  .inflanar-supports {
+  .afrifinder-supports {
 	padding: 60px;
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 	border-radius: 10px;
   }
-  .inflanar-supports__head {
+  .afrifinder-supports__head {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 30px;
 }
-  .inflanar-supports__bgroup {
+  .afrifinder-supports__bgroup {
 	display: flex;
 	justify-content: end;
 	gap: 25px;
 }
-.inflanar-supports__bgroup .inflanar-btn {
+.afrifinder-supports__bgroup .afrifinder-btn {
 	height: 50px;
 }
-.inflanar-table__main-service tr td{
+.afrifinder-table__main-service tr td{
 	border-bottom: 1px solid #EAEAEA;
 }
-.inflanar-table__main-service tr:last-child td{
+.afrifinder-table__main-service tr:last-child td{
 	border:none;
 }
-.inflanar-table__main-service .inflanar-table__body tr:nth-child(2n) {
+.afrifinder-table__main-service .afrifinder-table__body tr:nth-child(2n) {
 	background-color: transparent;
 }
-.inflanar-table__main {
+.afrifinder-table__main {
 	border-radius: 10px;
 }
 
-.inflanar-table.inflanar-table__favorite {
+.afrifinder-table.afrifinder-table__favorite {
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 	border-radius: 10px;
 }
 
 /* Support Page */
-.inflanar-supports__info {
+.afrifinder-supports__info {
 	font-size: 24px;
 	padding-bottom: 5px;
 	border-bottom: 1px solid #EAEAEA;
 	display: inline-flex;
   }
-  .inflanar-supports__status {
+  .afrifinder-supports__status {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 20px;
   }
-  .inflanar-supports__status--title {
+  .afrifinder-supports__status--title {
 	font-size: 18px;
 	margin: 0;
   }
-  .inflanar-supports__notice {
+  .afrifinder-supports__notice {
 	border-radius: 10px;
 	background: #FEEAE6;
 	padding: 25px 30px;
@@ -4571,22 +4534,22 @@ div.dataTables_wrapper div.dataTables_info  {
 	align-items: baseline;
 	justify-content: space-between;
   }
-  .inflanar-supports__ntitle {
+  .afrifinder-supports__ntitle {
 	font-size: 18px;
 	color: #333;
 	margin: 0;
   }
-  .inflanar-supports__nauthor {
+  .afrifinder-supports__nauthor {
 	font-size: 16px;
   }
-  .inflanar-supports__nfield {
+  .afrifinder-supports__nfield {
 	margin-top: 25px;
   }
-  .inflanar-supports__ntime {
+  .afrifinder-supports__ntime {
 	color: #647082;
   }
 
-  .inflanar-supports__form textarea {
+  .afrifinder-supports__form textarea {
 	padding: 15px 20px;
 	border: none;
 	border-radius: 10px;
@@ -4594,12 +4557,12 @@ div.dataTables_wrapper div.dataTables_info  {
 	resize: none;
 	height: 105px;
 }
-.inflanar-form-file {
+.afrifinder-form-file {
 	display: flex;
 	align-items: center;
 	gap: 15px;
 }
-.inflanar-form-file label {
+.afrifinder-form-file label {
 	display: flex;
 	background: #D9D9D9;
 	padding: 6px 20px;
@@ -4610,39 +4573,39 @@ div.dataTables_wrapper div.dataTables_info  {
 	margin: 0;
 	cursor: pointer;
 }
-.inflanar-form-file label:hover{
+.afrifinder-form-file label:hover{
 	background-color: #FE2C55;
 	color:#fff;
 }
-.inflanar-supports__buttons .inflanar-btn {
+.afrifinder-supports__buttons .afrifinder-btn {
 	height: 46px;
 }
-.inflanar-supports__form .inflanar-btn {
+.afrifinder-supports__form .afrifinder-btn {
 	height: 50px;
 }
-.inflanar-supports__status .inflanar-table__label {
+.afrifinder-supports__status .afrifinder-table__label {
 	padding: 3px 15px;
 }
-.inflanar-supports__tickets {
+.afrifinder-supports__tickets {
 	padding-left: 30px;
 }
 
 /* Modal */
-.modal-header.inflanar__modal__header {
+.modal-header.afrifinder__modal__header {
 	border-bottom: 1px solid rgba(83, 86, 251, 0.16);
 	padding: 20px 40px;
 }
-.inflanar-preview__modal-content {
+.afrifinder-preview__modal-content {
 	border-radius: 15px;
 }
-.inflanar-preview__modal-title {
+.afrifinder-preview__modal-title {
 	font-size: 18px;
 }
 
-.inflanar-modal__body {
+.afrifinder-modal__body {
 	padding: 40px;
 }
-.inflanar-modal__body .trending-action__single {
+.afrifinder-modal__body .trending-action__single {
   max-width: 270px;
   margin: 0 auto;
 }
@@ -4660,102 +4623,102 @@ div.dataTables_wrapper div.dataTables_info  {
 .modal-content .btn-close:hover {
 	background: #FE2C55 !important;
 }
-.inflanar-preview__close {
+.afrifinder-preview__close {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.inflanar-preview__close-img {
+.afrifinder-preview__close-img {
 	max-width: 135px;
 	margin-bottom: 28px;
 }
-.inflanar-preview__close-title {
+.afrifinder-preview__close-title {
 	text-align: center;
 	font-size: 20px;
 	margin: 0;
 	font-weight: 400;
 	color: #647082;
 }
-.inflanar-close__body {
+.afrifinder-close__body {
 	padding: 40px 60px;
 }
 
-.inflanar-preview__modal  .modal-dialog{
+.afrifinder-preview__modal  .modal-dialog{
 	max-width: 800px;
 }
 .modal-content{
 	margin:0 auto;
 }
-.inflanar-preview__logout .modal-content {
+.afrifinder-preview__logout .modal-content {
 	width: 520px !important;
 }
 
-.inflanar__item-button--group {
+.afrifinder__item-button--group {
 	margin-top: 30px;
 	display: flex;
 	align-items: center;
 	gap: 25px;
   }
-  .inflanar-preview__modal .inflanar-btn {
+  .afrifinder-preview__modal .afrifinder-btn {
 	height: 50px;
   }
-  .inflanar-btn.inflanar-btn__cancel {
+  .afrifinder-btn.afrifinder-btn__cancel {
 	background: #F7D6D1;
 	color: #FE2C55;
   }
-  .inflanar-preview__close-title span {
+  .afrifinder-preview__close-title span {
 	display: block;
 	color: #333333;
 	margin-top: 10px;
 }
-.inflanar-preview__ticket form .form-group textarea {
+.afrifinder-preview__ticket form .form-group textarea {
 	height: 190px;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 991px) {
-.inflanar-table {
+.afrifinder-table {
 	overflow: scroll;
 	max-width: 100%;
 }
-.inflanar-table .inflanar-table__main {
+.afrifinder-table .afrifinder-table__main {
 	min-width: 800px;
 	min-width: 800px;
 }
-.inflanar-supports__tickets{
+.afrifinder-supports__tickets{
 	padding: 0;
 	margin-top: 30px;
 }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-.inflanar-psidebar__list .list-group-item {
+.afrifinder-psidebar__list .list-group-item {
 	padding: 12px 20px;
 }
-.inflanar-psidebar {
+.afrifinder-psidebar {
 	padding: 20px 15px;
 }
-.inflanar-supports{
+.afrifinder-supports{
 	padding:25px;
 }
 }
 @media only screen and (max-width: 767px) {
-.inflanar-profile-info {
+.afrifinder-profile-info {
 	padding: 30px;
 }
-.inflanar-supports{
+.afrifinder-supports{
 	padding:20px;
 }
-.inflanar-supports__head {
+.afrifinder-supports__head {
 	flex-direction: column;
 }
-.inflanar-supports__bgroup {
+.afrifinder-supports__bgroup {
 	margin-top: 30px;
 }
-.inflanar__item-button--group .inflanar-btn {
+.afrifinder__item-button--group .afrifinder-btn {
 	padding: 0 15px;
 	font-size: 16px;
 }
-.inflanar-preview__close-img {
+.afrifinder-preview__close-img {
 	max-width: 100px;
 }
 .influencers__ptitle{
@@ -4767,7 +4730,7 @@ div.dataTables_wrapper div.dataTables_paginate {
 }
 }
 @media only screen and (max-width: 400px) {
-.inflanar-profile-info__title {
+.afrifinder-profile-info__title {
 	width: 105px;
 	min-width: 105px;
 }
@@ -4782,39 +4745,39 @@ div.dataTables_wrapper div.dataTables_paginate {
 /*======================================
    Error Page Area
 ========================================*/  
-.inflanar-error-inner {
+.afrifinder-error-inner {
 	text-align: center;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
-.inflanar-error-inner__button {
+.afrifinder-error-inner__button {
 	margin-top: 30px;
 }
-.inflanar-error-inner__img {
+.afrifinder-error-inner__img {
 	max-width: 800px;
 }
-.inflanar-error-inner__img {
+.afrifinder-error-inner__img {
 	margin-bottom: 70px;
 }
-.inflanar-error-inner__title {
+.afrifinder-error-inner__title {
 	font-size: 30px;
 	margin: 0;
 }
 @media only screen and (max-width: 991px) {
-	.inflanar-error-inner__img{
+	.afrifinder-error-inner__img{
 		max-width: 80%;
 	}
 }
 
 @media only screen and (max-width: 991px){
-	.inflanar-error-inner__button {
+	.afrifinder-error-inner__button {
 		margin-top: 30px;
 	}
-	.inflanar-error-inner__img {
+	.afrifinder-error-inner__img {
 		margin-bottom: 30px;
 	}
-	.inflanar-error-inner__title {
+	.afrifinder-error-inner__title {
 		font-size: 28px;
 	}
 }
@@ -4826,46 +4789,46 @@ div.dataTables_wrapper div.dataTables_paginate {
 /*======================================
    Testimonial Area
 ========================================*/
-.inflanar-testimonial {
+.afrifinder-testimonial {
 	position: relative;
 	background: #fff;
 	padding: 46px;
 	border-radius: 10px;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
 }
-.inflanar-testimonial__quote,
-.inflanar-testimonial__quote svg {
+.afrifinder-testimonial__quote,
+.afrifinder-testimonial__quote svg {
 	max-width: 55px;
 }
-.inflanar-testimonial__head {
+.afrifinder-testimonial__head {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 20px;
   }
-  .inflanar-testimonial__logo img {
+  .afrifinder-testimonial__logo img {
 	width: 195px;
 	height: 42px;
 	min-width: 195px;
   }
 
-.inflanar-testimonial__text {
+.afrifinder-testimonial__text {
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 34px;
 }
-.inflanar-testimonial__bottom {
+.afrifinder-testimonial__bottom {
 	display: flex;
 	align-items: center;
 	gap: 25px;
 	justify-content: space-between;
 }
-.inflanar-testimonial__author {
+.afrifinder-testimonial__author {
 	display: flex;
 	align-items: center;
 	gap: 15px;
   } 
-  .inflanar-testimonial__author img {
+  .afrifinder-testimonial__author img {
 	min-width: 64px;
 	min-height: 64px;
 	max-width: 64px;
@@ -4873,34 +4836,34 @@ div.dataTables_wrapper div.dataTables_paginate {
 	border-radius: 10px;
 	box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.20);
 }
-  .inflanar-testimonial__author--title {
+  .afrifinder-testimonial__author--title {
 	margin: 0;
 	font-size: 22px;
 	font-weight: 600;
 }
-  .inflanar-testimonial__quote svg {
+  .afrifinder-testimonial__quote svg {
 	fill: #FE2C55;
 	max-width: 150px;
   }
-  .inflanar-form-input--review {
+  .afrifinder-form-input--review {
 	margin-top: 10px;
 }
-  .inflanar-rating {
+  .afrifinder-rating {
 	display: flex;
 	align-items: center;
 	gap: 2px;
 	color: #FFC403;
 }
-.inflanar-testimonial.inflanar-testimonial--v2 {
+.afrifinder-testimonial.afrifinder-testimonial--v2 {
 	display: flex;
 	align-items: center;
 	gap: 20px;
 	flex-wrap: wrap;
 }
-.inflanar-testimonial.inflanar-testimonial--v2 .inflanar-testimonial__main {
+.afrifinder-testimonial.afrifinder-testimonial--v2 .afrifinder-testimonial__main {
 	width: 74%;
 }
-.inflanar-testimonial.inflanar-testimonial--v2 .inflanar-testimonial__quote {
+.afrifinder-testimonial.afrifinder-testimonial--v2 .afrifinder-testimonial__quote {
 	max-width: 150px;
 	position: absolute;
 	bottom: 15px;
@@ -4916,52 +4879,52 @@ div.dataTables_wrapper div.dataTables_paginate {
 	border-radius: 100%;
 	left: -37.5px;
 }
-.inflanar-testimonial.inflanar-testimonial--v2 .inflanar-testimonial__img {
+.afrifinder-testimonial.afrifinder-testimonial--v2 .afrifinder-testimonial__img {
 	min-width: 190px;
 	position: relative;
   }
-  .inflanar-testimonial.inflanar-testimonial--v2 .inflanar-testimonial__img img {
+  .afrifinder-testimonial.afrifinder-testimonial--v2 .afrifinder-testimonial__img img {
 	border-radius: 8px;
 }
 
-.inflanar-testimonial.inflanar-testimonial--v2  .inflanar-testimonial__bottom{
+.afrifinder-testimonial.afrifinder-testimonial--v2  .afrifinder-testimonial__bottom{
 	margin-top:20px;
 }
-.inflanar-testimonial.inflanar-testimonial--v2 .inflanar-testimonial__text{
+.afrifinder-testimonial.afrifinder-testimonial--v2 .afrifinder-testimonial__text{
 	line-height: 44px;
 }
 
 
-.inflanar-slider-testimonial {
+.afrifinder-slider-testimonial {
 	margin: 0 -20px;
 }
-.inflanar-slider-testimonial .inflanar-testimonial {
+.afrifinder-slider-testimonial .afrifinder-testimonial {
 	margin: 0 20px;
 }
 
 /* Reviews */
-.inflanar-testimonial.inflanar-testimonial--review .inflanar-testimonial__text {
+.afrifinder-testimonial.afrifinder-testimonial--review .afrifinder-testimonial__text {
 	font-size: 16px;
 	line-height: 180%;
 	margin-bottom: 0;
 }
-.inflanar-testimonial.inflanar-testimonial--review {
+.afrifinder-testimonial.afrifinder-testimonial--review {
 	display: block;
 	background: #F3F3F3;
 	border: none;
 	box-shadow: none;
 	padding: 20px;
 }
-.inflanar-testimonial.inflanar-testimonial--review .inflanar-testimonial__bottom {
+.afrifinder-testimonial.afrifinder-testimonial--review .afrifinder-testimonial__bottom {
 	margin-bottom: 5px;
 }
-.inflanar-testimonial.inflanar-testimonial--review .inflanar-testimonial__author--title {
+.afrifinder-testimonial.afrifinder-testimonial--review .afrifinder-testimonial__author--title {
 	font-size: 18px;
 }
-.inflanar-testimonial.inflanar-testimonial--review .inflanar-testimonial__author--position {
+.afrifinder-testimonial.afrifinder-testimonial--review .afrifinder-testimonial__author--position {
 	font-size: 14px;
 }
-.inflanar-testimonial.inflanar-testimonial--review .inflanar-rating--main {
+.afrifinder-testimonial.afrifinder-testimonial--review .afrifinder-rating--main {
 	margin: 0 !important;
 	flex-direction: column;
 	justify-content: end;
@@ -4969,70 +4932,70 @@ div.dataTables_wrapper div.dataTables_paginate {
 	gap: 15px;
 	display: flex;
 }
-.inflanar-testimonial.inflanar-testimonial--review .inflanar-rating {
+.afrifinder-testimonial.afrifinder-testimonial--review .afrifinder-rating {
 	gap: 2px;
 	font-size: 15px;
 }
-  .inflanar-testimonial--reply {
+  .afrifinder-testimonial--reply {
 	padding-left: 80px;
 	padding-top: 20px;
 	border-top: 1px solid #DEDEDE;
 	margin-top: 20px;
   }
-.inflanar-testimonial.inflanar-testimonial--review .inflanar-testimonial__author img {
+.afrifinder-testimonial.afrifinder-testimonial--review .afrifinder-testimonial__author img {
 	width: 50px;
 	min-width: 50px;
 	height: 50px;
 	min-height: 50px;
 }
-.inflanar-reply img {
+.afrifinder-reply img {
 	max-width: 16px !important;
 	width: 16px !important;
 	min-width: 15px !important;
 	height: initial !important;
 	min-height: initial !important;
 }
-.inflanar-view-all {
+.afrifinder-view-all {
 	font-size: 18px;
 	font-weight: 500;
 	text-decoration: underline;
 	margin-top: 40px;
 }
 
-.inflanar-testimonial__right {
+.afrifinder-testimonial__right {
 	display: flex;
 	align-items: center;
 	gap: 15px;
 }
-.inflanar-testimonial__right p {
+.afrifinder-testimonial__right p {
 	margin: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .inflanar-testimonial.inflanar-testimonial--v2 .inflanar-testimonial__main {
+    .afrifinder-testimonial.afrifinder-testimonial--v2 .afrifinder-testimonial__main {
 		width: 60%;
 	}
 }
 
 @media only screen and (max-width: 767px) {
-	.inflanar-testimonial__text {
+	.afrifinder-testimonial__text {
 		font-size: 18px;
 		line-height: 34px !important;
 	}
-	.inflanar-testimonial__quote, .inflanar-testimonial__quote svg {
+	.afrifinder-testimonial__quote, .afrifinder-testimonial__quote svg {
 		display: none;
 	}
-	.inflanar-testimonial.inflanar-testimonial--v2 .inflanar-testimonial__quote {
+	.afrifinder-testimonial.afrifinder-testimonial--v2 .afrifinder-testimonial__quote {
 		left: -30px;
 		width: 60px;
 		height: 60px;
 		line-height: 60px;
 		font-size: 25px;
 	}	
-	.inflanar-testimonial.inflanar-testimonial--v2 .inflanar-testimonial__main,
-	.inflanar-testimonial.inflanar-testimonial--v2 .inflanar-testimonial__img {
+	.afrifinder-testimonial.afrifinder-testimonial--v2 .afrifinder-testimonial__main,
+	.afrifinder-testimonial.afrifinder-testimonial--v2 .afrifinder-testimonial__img {
 		width: 100%;
 	}
-	.inflanar-testimonial{
+	.afrifinder-testimonial{
 		padding:20px;
 	}
 
@@ -5045,7 +5008,7 @@ div.dataTables_wrapper div.dataTables_paginate {
 	Global
 ========================================*/
 
-.inflanar-social {
+.afrifinder-social {
 	display: flex;
 	align-items: center;
 	gap: 40px;
@@ -5054,7 +5017,7 @@ div.dataTables_wrapper div.dataTables_paginate {
 	margin: 0;
 	justify-content: end;
 }
-.inflanar-social a {
+.afrifinder-social a {
 	background: transparent;
 	color: #fff !important;
 	border-radius: 100%;
@@ -5064,13 +5027,13 @@ div.dataTables_wrapper div.dataTables_paginate {
 	justify-content: center;
 	align-items: center;
 }
-.inflanar-social a svg{
+.afrifinder-social a svg{
 	fill:currentColor;
 }
-.inflanar-social.inflanar-social__single {
+.afrifinder-social.afrifinder-social__single {
 	gap: 10px;
 }
-.inflanar-social.inflanar-social__single a {
+.afrifinder-social.afrifinder-social__single a {
 	background: #FE2C55;
 	width: 26px;
 	height: 26px;
@@ -5078,62 +5041,62 @@ div.dataTables_wrapper div.dataTables_paginate {
 	font-size: 14px;
 	box-shadow: 0px 0px 10px #00000024;
 }
-.inflanar-social.inflanar-social__single a:hover{
+.afrifinder-social.afrifinder-social__single a:hover{
 	background: #fff;
 	color:#FE2C55 !important;
 }
 /* Contact Form */
-.inflanar-comments-form__title {
+.afrifinder-comments-form__title {
 	font-size: 24px;
 }
-.inflanar-comments-form {
+.afrifinder-comments-form {
 	background: #fff;
 	padding: 45px 50px;
 	border-radius: 10px;
 	box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.08);
 }
-.inflanar-comments-form .inflanar-form-input input,
-.inflanar-comments-form .inflanar-form-input textarea {
+.afrifinder-comments-form .afrifinder-form-input input,
+.afrifinder-comments-form .afrifinder-form-input textarea {
 	background: #fff !important;
 }
-  .inflanar-comments-form .form-group {
+  .afrifinder-comments-form .form-group {
 	margin-top: 20px;
 }
-.inflanar-comments-form .form-group label {
+.afrifinder-comments-form .form-group label {
 	font-weight: 400;
 	font-size: 16px;
 	margin-bottom: 5px;
 }
-  .inflanar-comments-form .inflanar-service-ag__button {
+  .afrifinder-comments-form .afrifinder-service-ag__button {
 	margin-top: 30px;
 	display: ;
 	text-align: right;
   }
-  .inflanar-comments-form .inflanar-service-ag__button {
+  .afrifinder-comments-form .afrifinder-service-ag__button {
 	margin-top: 30px;
 	text-align: right;
 	padding: 0 30px;
 }
-.inflanar-comments-form .inflanar-form-input textarea {
+.afrifinder-comments-form .afrifinder-form-input textarea {
 	height: 130px;
 }
 
-.inflanar-form-input--review li i {
+.afrifinder-form-input--review li i {
 	font-size: 18px;
 	color: #C1C1C1;
 	transition: all 0.3s ease;
 }
-  .inflanar-form-input--review:hover li i {
+  .afrifinder-form-input--review:hover li i {
 	color: #FFC403;
   }
-  .inflanar-form-input--review li {
+  .afrifinder-form-input--review li {
 	cursor: pointer;
   }
 
-.inflanar-form-input input, 
-.inflanar-form-input select, 
-.inflanar-form-input .inflanar-form-select, 
-.inflanar-form-input textarea {
+.afrifinder-form-input input, 
+.afrifinder-form-input select, 
+.afrifinder-form-input .afrifinder-form-select, 
+.afrifinder-form-input textarea {
 	background: #fff;
 	width: 100%;
 	border: 1px solid #C1C1C1;
@@ -5144,38 +5107,38 @@ div.dataTables_wrapper div.dataTables_paginate {
 	align-items: center;
 	resize: none;
 }
-.inflanar-form-input textarea, .inflanar-form-input textarea {
+.afrifinder-form-input textarea, .afrifinder-form-input textarea {
 	height: 130px;
 	padding-top: 10px;
 }
 /* End Contact Form */
 
-.inflanar-page-content p{
+.afrifinder-page-content p{
 	margin-bottom:30px;
 }
-.inflanar-page-content p:last-child{
+.afrifinder-page-content p:last-child{
 	margin:0;
 }
-.inflanar-page-content ul li {
+.afrifinder-page-content ul li {
 	color: #647082;
 }
 
-.inflanar-form-input--review li i {
+.afrifinder-form-input--review li i {
 	font-size: 18px;
 	color: #C1C1C1;
 	transition: all 0.3s ease;
 }
-  .inflanar-form-input--review:hover li i {
+  .afrifinder-form-input--review:hover li i {
 	color: #FFC403;
   }
-  .inflanar-form-input--review li {
+  .afrifinder-form-input--review li {
 	cursor: pointer;
   }
 
-.inflanar-form-input input, 
-.inflanar-form-input select, 
-.inflanar-form-input .inflanar-form-select, 
-.inflanar-form-input textarea {
+.afrifinder-form-input input, 
+.afrifinder-form-input select, 
+.afrifinder-form-input .afrifinder-form-select, 
+.afrifinder-form-input textarea {
 	background: #fff;
 	width: 100%;
 	border: 1px solid #C1C1C1;
@@ -5186,15 +5149,15 @@ div.dataTables_wrapper div.dataTables_paginate {
 	align-items: center;
 	resize: none;
 }
-.inflanar-form-input input:hover,
-.inflanar-form-input input:focus,
-.inflanar-form-input textarea:hover,
-.inflanar-form-input textarea:focus,
+.afrifinder-form-input input:hover,
+.afrifinder-form-input input:focus,
+.afrifinder-form-input textarea:hover,
+.afrifinder-form-input textarea:focus,
 .select2-container .select2-selection--single:hover,
 .select2-container .select2-selection--single:focus{
 	border-color:#FE2C55 !important;
 }
-.inflanar-form-input textarea, .inflanar-form-input textarea {
+.afrifinder-form-input textarea, .afrifinder-form-input textarea {
 	height: 130px;
 	padding-top: 10px;
 }
@@ -5203,7 +5166,7 @@ div.dataTables_wrapper div.dataTables_paginate {
 
 
 /* Search Form */
-.inflanar-search-form__form {
+.afrifinder-search-form__form {
 	background: #FFFFFF;
 	min-width: 100%;
 	max-width: 100%;
@@ -5217,92 +5180,92 @@ div.dataTables_wrapper div.dataTables_paginate {
 	justify-content: space-between;
 	border-radius: 10px;
 }
-.inflanar-search-form {
+.afrifinder-search-form {
 	display: flex;
 	align-items: center;
 }
-.inflanar-search-form__group {
+.afrifinder-search-form__group {
 	display: flex;
 	align-items: center;
 	gap: 10px;
 	width: 100%;
 }
-.inflanar-search-form__button {
+.afrifinder-search-form__button {
 	height: 100% !important;
 }
-  .inflanar-search-form__form input,.inflanar-search-form__form input {
+  .afrifinder-search-form__form input,.afrifinder-search-form__form input {
 	border: none;
   }
-  .inflanar-search-form__form input, .inflanar-search-form__form button {
+  .afrifinder-search-form__form input, .afrifinder-search-form__form button {
 	height: 100%;
 }
-.inflanar-search-form__service .inflanar-btn.inflanar-btn--search {
+.afrifinder-search-form__service .afrifinder-btn.afrifinder-btn--search {
 	padding: 0;
 	min-width: 40px;
 	width: 40px !important;
 }
-.inflanar-search-form__service .inflanar-search-form__form {
+.afrifinder-search-form__service .afrifinder-search-form__form {
 	background: #FFF0F3;
 	padding: 5px 5px 5px 20px;
 	height: 50px;
 }
-.inflanar-search-form__service  .inflanar-search-form__form input{
+.afrifinder-search-form__service  .afrifinder-search-form__form input{
 	background: transparent;
 }
 
-.inflanar-section-bigspace {
+.afrifinder-section-bigspace {
 	margin-bottom: -180px;
 	padding-bottom: 290px;
 }
-.inflanar-list-style {
+.afrifinder-list-style {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 	flex-wrap: wrap;
 }
-.inflanar-list-style li {
+.afrifinder-list-style li {
 	display: flex;
 	align-items: center;
 	gap: 10px;
 	color: #333;
 	font-style: italic;
 }
-.inflanar-list-style.list-style-normal li {
+.afrifinder-list-style.list-style-normal li {
 	font-style: normal;
 }
-.inflanar-list-style.inflanar-list-style__grey li{
+.afrifinder-list-style.afrifinder-list-style__grey li{
 	color: #647082;
 }
-.inflanar-list-style.inflanar-list-style__white li{
+.afrifinder-list-style.afrifinder-list-style__white li{
 	color: #fff;
 }
 
-.inflanar-list-style.inflanar-list-style__row {
+.afrifinder-list-style.afrifinder-list-style__row {
 	flex-direction: row;
 	gap: 15px;
 	align-items: center;
 	justify-content: space-between;
 }
-.inflanar-list-style.inflanar-list-style__row li {
+.afrifinder-list-style.afrifinder-list-style__row li {
 	min-width: 45%;
 	width: 45%;
 }
 
-.inflanar-list-style.inflanar-list-style--v3 {
+.afrifinder-list-style.afrifinder-list-style--v3 {
 	flex-direction: row;
 	gap: 30px;
 }
 
-.inflanar-section-inner {
+.afrifinder-section-inner {
 	position: absolute;
 	width: auto;
 	top: 0;
   }
-  .inflanar-section-inner__shape1 {
+  .afrifinder-section-inner__shape1 {
 	top: -20px;
 	left: -55px;
   }
-  .inflanar-section-inner__shape2 {
+  .afrifinder-section-inner__shape2 {
 	bottom: -75px;
 	top: initial;
 	left: initial;
@@ -5310,32 +5273,32 @@ div.dataTables_wrapper div.dataTables_paginate {
   }
 
 
-.inflanar-gradient-color{
+.afrifinder-gradient-color{
 	background: linear-gradient(to right, #885DF1 0%, #6610F2 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-.inflanar-container-medium__row{
+.afrifinder-container-medium__row{
 	--bs-gutter-x: 110px;
 }
-.inflanar-row-gap-80{
+.afrifinder-row-gap-80{
 	--bs-gutter-x: 80px;
 }
-.inflanar-focus-content {
+.afrifinder-focus-content {
     background: #F1F0FE;
     color: #FE2C55;
     padding: 15px;
     border-radius: 4px;
   }
-  .inflanar-focus-content p {
+  .afrifinder-focus-content p {
     color: #FE2C55;
   }
-  .inflanar-focus-content.inflanar-focus-content--v2 {
+  .afrifinder-focus-content.afrifinder-focus-content--v2 {
 	background: transparent;
 	padding: 0;
 	border: none;
 }
-.inflanar-section__head {
+.afrifinder-section__head {
 	z-index: 10;
 	position: relative;
 	display: flex;
@@ -5344,25 +5307,25 @@ div.dataTables_wrapper div.dataTables_paginate {
 	justify-content: start;
 	align-items: start;
 }
-.inflanar-section__head.inflanar-section__center {
+.afrifinder-section__head.afrifinder-section__center {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
-.inflanar-section__badge {
+.afrifinder-section__badge {
 	font-size: 20px;
 	font-weight: 400;
 	display: inline-flex;
-	font-family: var(--inflanar-font-regular);
+	font-family: var(--afrifinder-font-regular);
 	margin-bottom: 0;
 }
-.inflanar-section__badge img {
+.afrifinder-section__badge img {
 	position: absolute;
 	bottom: -4px;
 	width: 300px;
 	height: 10px;
 }
-.inflanar-section__badge span {
+.afrifinder-section__badge span {
 	z-index: 1000;
 	padding: 0 10px;
 }
@@ -5387,7 +5350,7 @@ div.dataTables_wrapper div.dataTables_paginate {
 	}
 }
 
-.inflanar-section__badge.inflanar-section__badge--shape {
+.afrifinder-section__badge.afrifinder-section__badge--shape {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -5397,36 +5360,36 @@ div.dataTables_wrapper div.dataTables_paginate {
 	display: inline-block;
 	font-weight: 500;
 }
-  .inflanar-section__title {
+  .afrifinder-section__title {
       margin: 0;
       font-size: 42px;
   }
-  .section-white .inflanar-section__title,.section-white .sec-head__text {
+  .section-white .afrifinder-section__title,.section-white .sec-head__text {
     color: #fff;
   }
-  .inflanar-section__title  span{
+  .afrifinder-section__title  span{
 	color:#FE2C55;
   }
   .bg-normal-default {
       background: #F5F5F5;
   }
-  .inflanar-section__head.inflanar-section__head__half {
+  .afrifinder-section__head.afrifinder-section__head__half {
 	max-width: 70%;
   }
-  .inflanar-section__badge.inflanar-section__badge--shape.inflanar-section__badge--shape--v2 {
+  .afrifinder-section__badge.afrifinder-section__badge--shape.afrifinder-section__badge--shape--v2 {
 	padding: 14px 35px;
 }
-.inflanar-section__title.inflanar-section__title--medium{
+.afrifinder-section__title.afrifinder-section__title--medium{
 	font-size: 36px;
 }
-.inflanar-section__badge.inflanar-section__badge--medium span{
+.afrifinder-section__badge.afrifinder-section__badge--medium span{
 	font-size: 20px;
 }
 
 
 
 /*  Pagination*/
-.inflanar-pagination li a {
+.afrifinder-pagination li a {
 	width: 50px;
 	height: 50px;
 	text-align: center;
@@ -5442,55 +5405,55 @@ div.dataTables_wrapper div.dataTables_paginate {
 	font-size: 16px;
 	font-weight: 400;
 }
-.inflanar-pagination ul {
+.afrifinder-pagination ul {
 	display: flex;
 	gap: 10px;
 	flex-wrap: wrap;
 }
-.inflanar-pagination .inflanar-pagination__button a {
+.afrifinder-pagination .afrifinder-pagination__button a {
 	color: #FE2C55 !important;
 }
-.inflanar-pagination ul li a:hover,
-.inflanar-pagination ul li.active a {
+.afrifinder-pagination ul li a:hover,
+.afrifinder-pagination ul li.active a {
 	background: #FE2C55;
 	color: #fff !important;
 	border-color: transparent !important;
 }
 
   @media only screen and (max-width: 991px) {
-	.inflanar-section__title {
+	.afrifinder-section__title {
 		font-size: 34px !important;
 	}
-      .inflanar-section__badge--small {
+      .afrifinder-section__badge--small {
           font-size: 18px;
       }
   }
   @media only screen and (max-width: 767px) {
-	.inflanar-section__title {
+	.afrifinder-section__title {
 		font-size: 24px !important;
 	}
-      .inflanar-flex.inflanar-flex__section {
+      .afrifinder-flex.afrifinder-flex__section {
           flex-direction: column;
           text-align: center;
       }
-      .inflanar-section__head.inflanar-section__head__half {
+      .afrifinder-section__head.afrifinder-section__head__half {
           max-width: 100%;
       }
-	  .inflanar-pagination ul .inflanar-pagination__button a{
+	  .afrifinder-pagination ul .afrifinder-pagination__button a{
 		margin:0;
 	  }
-	  .inflanar-pagination li a {
+	  .afrifinder-pagination li a {
 		width: 40px;
 		height: 40px;
 		font-size: 15px;
 	}
-	.inflanar-list-style--v3{
+	.afrifinder-list-style--v3{
 		gap:15px !important;
 	}
   }
 
 
-.inflanar-support-img__content {
+.afrifinder-support-img__content {
 	position: absolute;
 	bottom: 0;
 	background: #FE2C55;
@@ -5502,10 +5465,10 @@ div.dataTables_wrapper div.dataTables_paginate {
 	padding: 20px 40px;
 	gap: 25px;
 }
-.inflanar-support-img__content img {
+.afrifinder-support-img__content img {
 	max-width: 120px;
 }
-  .inflanar-support-img__title {
+  .afrifinder-support-img__title {
 	display: flex;
 	flex-direction: column;
 	font-size: 42px;
@@ -5514,36 +5477,36 @@ div.dataTables_wrapper div.dataTables_paginate {
 	line-height: initial;
   }
   
-  .inflanar-support-img__title span {
+  .afrifinder-support-img__title span {
 	font-size: 18px;
 	font-weight: 400;
   }
-  .inflanar-support-img {
+  .afrifinder-support-img {
 	border-radius: 8px;
 	overflow: hidden;
   }
-  .inflanar-support-img img {
+  .afrifinder-support-img img {
 	width: 450px;
 	height: 300px;
 	border-radius: 10px;
 }
-  .inflanar-service-separate {
+  .afrifinder-service-separate {
 	height: 450px;
 	position: absolute;
 	top: 0;
 	width: 100%;
 }
 
-.inflanar-bg.inflanar-bg__opacity-v2 {
+.afrifinder-bg.afrifinder-bg__opacity-v2 {
 	width: 100%;
 	height: 100%;
 	opacity: 0.7;
   }
-.inflanar-hero-group-img {
+.afrifinder-hero-group-img {
 	position: absolute;
 	top: 0;
   }
-  .inflanar-hero-group-img.inflanar-hero-group-img__v2 {
+  .afrifinder-hero-group-img.afrifinder-hero-group-img__v2 {
 	top: 0;
 	right: 0;
 	animation-name: flash;
@@ -5557,7 +5520,7 @@ div.dataTables_wrapper div.dataTables_paginate {
 	right: 0;
 	top: 0;
 }
-.inflanar-bg.inflanar-bg__opacity {
+.afrifinder-bg.afrifinder-bg__opacity {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -5583,10 +5546,10 @@ div.dataTables_wrapper div.dataTables_paginate {
     opacity: 0.12;
   }
 }
-.inflanar-video-popup img{
+.afrifinder-video-popup img{
 	border-radius: 8px;
 }
-.inflanar-video-popup .inflanar-btn {
+.afrifinder-video-popup .afrifinder-btn {
 	position: absolute;
 	bottom: 40px;
 	right: 40px;
@@ -5594,19 +5557,19 @@ div.dataTables_wrapper div.dataTables_paginate {
 	font-size: 22px;
 	padding: 18px 20px;
 }
-.inflanar-iconic-list {
+.afrifinder-iconic-list {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
 }
-  .inflanar-iconic-list li {
+  .afrifinder-iconic-list li {
 	display: flex;
 	align-items: center;
 	gap: 15px;
 	font-size: 18px;
 	font-weight: 500;
   }
-  .inflanar-iconic-list li i {
+  .afrifinder-iconic-list li i {
 	color: #fff;
 	background: #FE2C55;
 	min-width: 28px;
@@ -5616,13 +5579,13 @@ div.dataTables_wrapper div.dataTables_paginate {
 	border-radius: 100%;
 	font-size: 12px;
 }
-  .inflanar-iconic-list.inflanar-iconic-list__white li{
+  .afrifinder-iconic-list.afrifinder-iconic-list__white li{
 	color:#fff;
 	font-size: 22px;
 	font-weight: 400;
   }
 
-  .inflanar-iconic-list.inflanar-iconic-list__v2 li i {
+  .afrifinder-iconic-list.afrifinder-iconic-list__v2 li i {
 	background: transparent;
 	padding: 0;
 	width: auto;
@@ -5635,18 +5598,18 @@ div.dataTables_wrapper div.dataTables_paginate {
 }
 
 
-.inflanar-iconic-list.inflanar-iconic-list--v3 li i {
+.afrifinder-iconic-list.afrifinder-iconic-list--v3 li i {
 	background: transparent;
 	color: #FE2C55;
 	width: initial;
 	height: initial;
   }
-  .inflanar-iconic-list.inflanar-iconic-list--v3 li {
+  .afrifinder-iconic-list.afrifinder-iconic-list--v3 li {
 	font-weight: 400;
 	color: #647082;
 	font-size: 22px;
   }
-  .inflanar-iconic-list.inflanar-iconic-list--v3 li i {
+  .afrifinder-iconic-list.afrifinder-iconic-list--v3 li i {
 	font-size: 22px;
 	min-width: initial;
 	min-height: initial;
@@ -5686,58 +5649,58 @@ div.dataTables_wrapper div.dataTables_paginate {
 	width: 45px !important;
 }
 
-.inflanar-section-shape{
+.afrifinder-section-shape{
 	background-image:url('img/in-section-shape.svg');
 }
-.inflanar-section-shape2{
+.afrifinder-section-shape2{
 	background-image:url('img/in-section-shape2.svg');
 }
-.inflanar-section-shape3{
+.afrifinder-section-shape3{
 	background-image:url('img/in-footer-bg.jpg');
 }
-.inflanar-section-shape4{
+.afrifinder-section-shape4{
 	background-image:url('img/in-footer-bg.jpg');
 }
-.inflanar-section-shape5{
+.afrifinder-section-shape5{
 	background-image:url('img/in-section-shape5.jpg');
 }
-.inflanar-section-shape6{
+.afrifinder-section-shape6{
 	background-image:url('img/in-hero-bg.svg');
 }
-.inflanar-section-shape7{
+.afrifinder-section-shape7{
 	background-image:url('img/in-section-shape7.svg');
 }
-.inflanar-section-shape8{
+.afrifinder-section-shape8{
 	background-image:url('img/in-section-shape7.svg');
 }
-.inflanar-section-shape9{
+.afrifinder-section-shape9{
 	background-image:url('img/in-section-shape9.svg');
 }
-.inflanar-section-shape10{
+.afrifinder-section-shape10{
 	background-image:url('img/in-hero-mixed-bg.png');
 }
-.inflanar-section-shape11{
+.afrifinder-section-shape11{
 	background-image:url('img/in-section-shape10.svg');
 }
-.inflanar-section-shape12{
+.afrifinder-section-shape12{
 	background-image:url('img/in-footer-bg2.jpg');
 }
-.inflanar-section-shape13{
+.afrifinder-section-shape13{
 	background-image:url('img/in-section-shape11.svg');
 }
-.inflanar-section-shape14{
+.afrifinder-section-shape14{
 	background-image: url('img/st-features-bg.svg');
 }
-.inflanar-section-shape15{
+.afrifinder-section-shape15{
 	background-image: url('img/in-section-shape12.svg');
 }
-.inflanar-section-shape16{
+.afrifinder-section-shape16{
 	background-image: url('img/in-section-shape13.svg');
 }
-.inflanar-section-shape17{
+.afrifinder-section-shape17{
 	background-image: url('img/in-section-shape14.jpg');
 }
-.inflanar-section-shape18{
+.afrifinder-section-shape18{
 	background-image: url('img/in-section-shape15.jpg');
 }
 
@@ -6737,34 +6700,34 @@ div.dataTables_wrapper div.dataTables_paginate {
 	 opacity:0
 	}
    }
-  .inflanar-anim-shape1{
+  .afrifinder-anim-shape1{
 	animation:rotate2 15s linear infinite;
   }
-  .inflanar-anim-shape2{
+  .afrifinder-anim-shape2{
 	animation: jumpTwo 4s infinite linear;
   }
-  .inflanar-anim-shape3{
+  .afrifinder-anim-shape3{
 	animation: moving 9s linear infinite;
   }
-  .inflanar-anim-shape4 {
+  .afrifinder-anim-shape4 {
 	animation: tpupdown 0.8s infinite alternate;
   }
-  .inflanar-anim-shape5{
+  .afrifinder-anim-shape5{
 	animation: moving 9s linear infinite;
   }
-  .inflanar-anim-shape6{
+  .afrifinder-anim-shape6{
 	animation: tptranslateX2 4s infinite alternate;
   }
-  .inflanar-anim-shape7{
+  .afrifinder-anim-shape7{
 	animation: moving 7s linear infinite;
   }
-  .inflanar-anim-shape8{
+  .afrifinder-anim-shape8{
 	animation: jumpTwo 4s infinite linear
   }
-  .inflanar-anim-shape9{
+  .afrifinder-anim-shape9{
 	animation: zoom 7s infinite;
   }
-  .inflanar-anim-shape10{
+  .afrifinder-anim-shape10{
 	animation: tptranslateY2 4s infinite alternate;
   }
 
@@ -6780,30 +6743,30 @@ div.dataTables_wrapper div.dataTables_paginate {
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-.inflanar-service__head img {
+.afrifinder-service__head img {
 	height: 220px;
 }
 .video-cta__card img {
 	height: 290px;
 }
-.inflanar-blog__img img {
+.afrifinder-blog__img img {
 	height: 350px;
 }
 }
 
 @media only screen and (max-width: 767px) {
-	.inflanar-service__head img,
+	.afrifinder-service__head img,
 	.video-cta__card img,
-	.inflanar-support-img img,.inflanar-why-choose__mixed img {
+	.afrifinder-support-img img,.afrifinder-why-choose__mixed img {
 		height: 240px;
 	}
-	.inflanar-about__img {
+	.afrifinder-about__img {
 		min-width: 100%;
 	}
-	.inflanar-about__img img {
+	.afrifinder-about__img img {
 		height: 300px;
 	}
-	.inflanar-blog__img img {
+	.afrifinder-blog__img img {
 		height: 200px;
 	}
 }
@@ -6811,53 +6774,53 @@ div.dataTables_wrapper div.dataTables_paginate {
 
   
 @media only screen and (min-width: 430px) and (max-width: 500px) {
-	.inflanar-service__head img,
+	.afrifinder-service__head img,
 	.video-cta__card img,
-	.inflanar-support-img img,.inflanar-hcard__img img,
-	.inflanar-blog__head a img,
-	.inflanar-tbox__img img{
+	.afrifinder-support-img img,.afrifinder-hcard__img img,
+	.afrifinder-blog__head a img,
+	.afrifinder-tbox__img img{
 		height: 280px;
 	}
-	.inflanar-blog__img img {
+	.afrifinder-blog__img img {
 		height: 240px;
 	}
 }
 @media only screen and (min-width: 425px) and (max-width: 500px) {
-	.inflanar-why-choose__mixed img{
+	.afrifinder-why-choose__mixed img{
 		height: 340px;
 	}
-	.inflanar-about__img img {
+	.afrifinder-about__img img {
 		height: 350px;
 	}
 }
 
 
 @media only screen and (min-width: 1020px) and (max-width: 1300px) {
-	.inflanar-header__button{
+	.afrifinder-header__button{
 		display: none;
 	}
-	.inflanar-hero__title {
+	.afrifinder-hero__title {
 		font-size: 52px;
 	}
-	.inflanar-ptags {
+	.afrifinder-ptags {
 		flex-direction: column;
 		align-items: start;
 		gap:10px;
 	}
-	.inflanar-hero__img > img {
+	.afrifinder-hero__img > img {
 		height: 500px;
 	}
-	.inflanar-features-list__title,
-	.inflanar-hcard__title {
+	.afrifinder-features-list__title,
+	.afrifinder-hcard__title {
 		font-size: 20px;
 	}
-	.inflanar-service__title a {
+	.afrifinder-service__title a {
 		font-size: 18px;
 	}
-	.inflanar-hcard__line{
+	.afrifinder-hcard__line{
 		display: none;
 	}
-	.video-cta__title,.inflanar-section__title {
+	.video-cta__title,.afrifinder-section__title {
 		font-size: 36px;
 	}
 	.video-cta__card {
@@ -6871,10 +6834,10 @@ div.dataTables_wrapper div.dataTables_paginate {
 	.funfacts {
 		gap: 35px;
 	}
-	.inflanar-category__single {
+	.afrifinder-category__single {
 		width: 30.6%;
 	}
-	.inflanar-brands {
+	.afrifinder-brands {
 		padding: 30px;
 	}
 	.footer-cta__inner {
@@ -6884,48 +6847,48 @@ div.dataTables_wrapper div.dataTables_paginate {
 		font-size: 28px;
 		margin-bottom: 30px;
 	}
-	.inflanar-hero-mixed {
+	.afrifinder-hero-mixed {
 		width: 58%;
 	}
-	.inflanar-tbox__img {
+	.afrifinder-tbox__img {
 		justify-content: start;
 		margin-top: 30px;
 	}
-	.inflanar-why-choose__mixed img {
+	.afrifinder-why-choose__mixed img {
 		width: 100%;
 		height: 450px;
 	}
-	.inflanar-about__row {
+	.afrifinder-about__row {
 		gap: 30px;
 	}
-	.inflanar-ceo__author {
+	.afrifinder-ceo__author {
 		gap: 15px;
 	}
 	.influencers-pinfo__card {
 		padding: 20px;
 	}
-	.inflanar-signin__body {
+	.afrifinder-signin__body {
 		padding: 30px;
 	}
-	.inflanar-error-inner__img {
+	.afrifinder-error-inner__img {
 		max-width: 600px;
 	}
-	.inflanar__item-button--group .inflanar-btn {
+	.afrifinder__item-button--group .afrifinder-btn {
 		padding: 0 20px;
 	}
-	.inflanar-supports {
+	.afrifinder-supports {
 		padding: 30px;
 	}
-	.inflanar-psidebar__list .list-group-item {
+	.afrifinder-psidebar__list .list-group-item {
 		padding: 12px 20px;
 	}
-	.inflanar-contact__box {
+	.afrifinder-contact__box {
 		padding: 30px;
 	}
 }
 
 @media only screen and (min-width: 1340px){
-	.inflanar-features-gap {
+	.afrifinder-features-gap {
 		--bs-gutter-x: 50px;
 	}
 }
